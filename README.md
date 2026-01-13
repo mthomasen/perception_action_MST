@@ -1,243 +1,184 @@
-# perception\_action\_MST
+## Perception & Action Exam Project — ØKO Badge Salience and Perceived Sustainability
 
-\## Perception \& Action Exam Project — ØKO Badge Salience and Perceived Sustainability
+This repository contains code and materials for a Perception & Action exam project testing whether an organic badge (rendered as “ØKO”) influences perceived sustainability ratings of food products, and whether this influence is amplified by increased badge visual salience.
 
 
+### Research question
 
-This repository contains code and materials for a Perception \& Action exam project testing whether an organic badge (“ØKO”) inflates perceived sustainability of food products, and whether this effect is amplified by badge visual salience.
+Do organic badges (“ØKO”) - especially when visually salient - influence perceived sustainability of food products above and beyond an independent eco proxy derived from Open Food Facts (OFF) and semantic "green" wording in product names?
 
+### Hypotheses
 
+H1 (Badge effect): Products displayed with an ØKO badge receive higher sustainability ratings than products shown without the badge.
 
-\## Research question
+H2 (Salience amplification): The effect of the ØKO badge is larger when badge salience is high than when it is low.
 
-Do organic badges (“ØKO”) — especially when visually salient — inflate perceived sustainability of food products \*\*above and beyond\*\* an independent eco proxy derived from Open Food Facts (OFF)?
 
 
+### Experiment summary
 
-\## Hypotheses
+- Task: single-item rating task (not 2AFC)
 
-\- \*\*H1 (Badge inflation):\*\* Products displayed with an organic badge (“ØKO”) receive higher sustainability ratings than products shown without the badge.
+- DV: perceived sustainability rating (1–7)
 
-\- \*\*H2 (Salience amplification):\*\* The positive effect of the organic badge on sustainability ratings is larger when badge salience is \*\*high\*\* than when badge salience is \*\*low\*\*.
+- RT: recorded and used only for QC trimming (not analysed as an outcome)
 
+- Design: within-subject; balanced stimulus set crossing:
 
+	organic_badge ∈ {0, 1}
 
-Controls:
+	salience ∈ {low, high}
 
-\- `eco\_signal` (OFF eco grade A/B vs C/D/E)
+	eco_signal ∈ {0, 1}
 
-\- `green\_words` (semantic “green” words in product names)
+- Stimuli: 160 items total (20 per cell in the 2 × 2 × 2 design)
 
 
 
-\## Experiment summary
+### Data source
 
-\- \*\*Task:\*\* single-item rating task (not 2AFC).
+Stimuli are sampled from Open Food Facts (OFF), an open food product database:
 
-\- \*\*Trial:\*\* product card shown → participant rates perceived sustainability on a \*\*1–7 scale\*\*.
+- OFF product dump is filtered to Denmark-relevant items.
 
-\- \*\*DV:\*\* sustainability rating.
+- Final stimuli restricted to items with Danish-language cues (`lang\\\_da == 1`) and valid eco grades (A–E).
 
-\- \*\*RT:\*\* recorded and used \*\*only\*\* for quality control trimming (not analyzed as an outcome).
 
-\- \*\*Design:\*\* within-subject, balanced stimulus set crossing:
 
-&nbsp; - `organic\_badge` ∈ {0,1}
+### Repository structure
+code/
 
-&nbsp; - `salience` ∈ {low, high}
+	01_clean_data.py
 
-&nbsp; - `eco\_signal` ∈ {0,1} (OFF-derived benchmark control)
+	02_engineer_flags.py
 
-\- \*\*Stimuli:\*\* 160 items total (20 per cell in the 2×2×2 design).
+	03a_build_stimulus_set.py
 
+	03b_qc_stimulus_set.py
 
+	03c_stimulus_description.Rmd
 
-\## Data source
+	04_data_inspection.Rmd
 
-Stimuli are sampled from \*\*Open Food Facts (OFF)\*\*, an open food product database:
+	05_data_cleanup.Rmd
 
-\- OFF product dump is filtered to Denmark-relevant items.
+	06_descriptive.Rmd
 
-\- Final stimuli restricted to items with Danish-language cues (`lang\\\_da == 1`) and valid eco grades (A–E).
+	07_analysis.Rmd
 
+	src/
 
+		functions.py
 
-\## Repository structure
+	experiment/
 
-\- `code/`
+		experiment_run_functions.py
 
-&nbsp; - `01\_clean\_data.py`
+	experiment_run_script.py
 
-&nbsp;   Loads the Open Food Facts products export, filters for Denmark, cleans key fields, and writes a smaller dataset.
+data/
 
-&nbsp; - `02\_engineer\_flags.py`
+	processed/
 
-&nbsp;   Loads the cleaned DK dataset and engineers variables/flags (e.g., eco score/signal, organic badge, Danish-language indicator, “green” wording indicator, and category).
+		off_dk_clean.csv
 
-&nbsp; - `03a\_build\_stimulus\_set.py` 
+		off_flags_dk.csv
 
-&nbsp;   Builds a stimulus set from the engineered dataset.
+		stimulus_set.csv
 
-  - `03b\_qc\_stimulus\_set.py` 
 
-&nbsp;   Quality checks for the stimulus set.
+### Pipeline overview
 
-  - `03c\_stimulus\_description.Rmd` 
+1. Clean OFF data (01_clean_data.py)
 
-&nbsp; - `04\_data\_inspection.Rmd`
+	Reads OFF in chunks, filters Denmark-relevant items, cleans key fields, and coalesces 	product names (prefers Danish where available).
+	Output: data/processed/off_dk_clean.csv
 
-&nbsp; - `05\_data\_cleanup.Rmd`
+2. Engineer flags (02_engineer_flags.py)
+	Derives variables used for sampling and analysis:
 
-&nbsp; - `06\_descriptive.Rmd`
+		eco_score (A–E; non-informative values treated as missing)
 
-&nbsp; - `07\_analysis.Rmd`
+		eco_signal (1 if eco_score ∈ {A,B}, else 0)
 
-&nbsp; - `src/` 
+		organic_badge (OFF label tags indicating organic-related labeling)
 
-&nbsp;   - `functions.py`
+		lang_da
 
-&nbsp;     Shared helper functions used by the Python pipeline scripts.
+		green_words
 
-&nbsp; - `experiment/`
+		category
+	Output: data/processed/off_flags_dk.csv
 
-&nbsp;   -`experiment\_run\_functions.py`
+3. Build stimulus set (03a_build_stimulus_set.py)
 
-&nbsp;   -`experiment\_run\_script.py`
+	Samples a balanced set across organic_badge × eco_signal
 
-\- `data/`
+	Assigns salience (low/high) evenly within each cell
 
-&nbsp; - `processed/`
+	Shuffles order and creates item_id
+	Output: data/processed/stimulus_set.csv
 
-&nbsp;   - `off\_dk\_clean.csv`
+	Name overrides (reproducibility note)
+		A small number of product names are manually improved for readability via an 		item_id-based override map in the stimulus builder.
 
-&nbsp;   - `off\_flags\_dk.csv`
+4. Run experiment (PsychoPy)
 
-&nbsp;   - `stimulus\_set.csv`
+	Presents one product card per trial.
 
+	When organic_badge == 1, a standardized “ØKO” badge is shown; badge styling depends on 	salience.
 
+	Participants respond with a 1–7 sustainability rating.
 
-\## Data availability
+	One CSV is saved per participant.
 
-This project expects the Open Food Facts products export file : `data/raw/en.openfoodfacts.org.products.csv.gz`. This file is not included due to file size. 
+	Participant CSV contains (e.g.):
+		item_id, product_name, organic_badge, salience, eco_signal, eco_score, lang_da, 		green_words, category, rating, rt, block_shown, participant, age, gender, diet, 		consent
 
-The participants response files are not included due to privacy reasons.
+5. Analysis (R)
 
+	Responses are merged with stimulus data, QC trimming is applied, and ratings are 	analysed with a linear mixed-effects model.
 
+	QC trimming
 
-\## Pipeline overview
+		RT plausibility window: 0.15–15 seconds (used only for exclusion)
 
+	Primary analysis model
+		Because salience only changes the display when a badge is present, analyses 		use a 3-level factor:
 
+			badge_salience ∈ {no_badge, badge_low, badge_high}
 
-\### 1) Clean OFF data
+		Model:
+			rating ~ badge_salience + eco_signal + green_words + (1 | 				participant) + (1 | item_id)
 
-Reads OFF in chunks and filters to Denmark-relevant items. Coalesces product names (prefers Danish where available).
+	Planned contrasts on estimated marginal means:
 
+		H1: badge present (avg of badge_low & badge_high) vs no_badge
 
+		H2: badge_high vs badge_low
 
-\*\*Output:\*\* `data/processed/off\_dk\_clean.csv`
 
+### Reproducibility
 
+Software:
+	Python
+	R (RStudio recommended for .Rmd)
+	PsychoPy
 
-\### 2) Engineer flags
 
-Derives/engineers variables used for stimulus selection and controls:
+Python dependencies:
+	pandas
+	numpy
 
-\- `eco\_score` (A–E; others treated as missing)
 
-\- `eco\_signal` (1 if `eco\_score` ∈ {A,B}, else 0)
-
-\- `organic\_badge` (ØKO/bio tags)
-
-\- `lang\_da`
-
-\- `green\_words`
-
-\- `category`
-
-
-
-\*\*Output:\*\* `data/processed/off\_flags\_dk.csv`
-
-
-
-\### 3) Build stimulus set
-
-Creates a balanced set across `organic\_badge × eco\_signal`, assigns `salience` low/high evenly, shuffles order, and creates `item\_id`.
-
-
-
-\*\*Output:\*\* `data/processed/stimulus\_set.csv`
-
-
-
-\#### Name overrides (important for reproducibility)
-
-Some product names were manually improved for clarity. These changes are \*\*hard-coded\*\* in the stimulus builder via a mapping like:
-
-
-
-name\_overrides\_by\_item\_id = {
-
-&nbsp;   20: "Tun på dåse",
-
-&nbsp;   22: "Hvidløg",
-
-&nbsp;   ...
-
-}
-
-
-
-
-
-\### 4) Running the experiment (PsychoPy)
-
-Presents one product card per trial, the style of the ØKO badge depends on salience, the participants then responds with a 1-7 sustainability rating. One csv file is saved per participant containing item\_id, product\_name, organic\_badge, salience, eco\_signal, eco\_score,lang\_da, green\_words, category, labels\_tags, languages\_tags, countries\_tags, rating,rt, block\_shown, participant, age, gender, diet, consent
-
-
-
-\### 5) Analysis
-
-Data are inspected, then responses are merged with stimulus data while applying RT trimming for QC. Descriptive summaries and figures are constructed. 
-
-Rating is analyzed using a linear mixed-effects model with random intercepts for participant and item:
-
-
-
-rating ~ organic\_badge \* salience + eco\_signal + green\_words + (1 | participant) + (1 | item\_id)
-
-
-
-RT is not analyzed as an outcome; it is used only for trimming implausible trials during cleanup/QC. 
-
-
-
-\## Reproducibility
-
-\### Software
-
-* Python
-* R (RStudio recommended for .Rmd)
-* PsychoPy
-
-
-
-\### Python dependencies
-
-* pandas
-* numpy
-
-
-
-\### R dependencies
-
-* tidyverse
-* lme4
-* lmerTest
-* emmeans
-* broom.mixed
-* performance
-* patchwork
+R dependencies:
+	tidyverse
+	lme4
+	lmerTest
+	emmeans
+	broom.mixed
+	performance
+	patchwork
 
 
 
