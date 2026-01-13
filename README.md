@@ -1,6 +1,6 @@
 # perception\_action\_MST
 
-\# Perception \& Action Exam Project — ØKO Badge Salience and Perceived Sustainability
+\## Perception \& Action Exam Project — ØKO Badge Salience and Perceived Sustainability
 
 
 
@@ -18,11 +18,15 @@ Do organic badges (“ØKO”) — especially when visually salient — inflate 
 
 \- \*\*H1 (Badge inflation):\*\* Products displayed with an organic badge (“ØKO”) receive higher sustainability ratings than products shown without the badge.
 
-\- \*\*H2 (Salience amplification):\*\* The positive effect of the organic badge on sustainability ratings is larger when badge salience is high than when badge salience is low.
+\- \*\*H2 (Salience amplification):\*\* The positive effect of the organic badge on sustainability ratings is larger when badge salience is \*\*high\*\* than when badge salience is \*\*low\*\*.
 
 
 
-`eco\_signal` (OFF eco grade A/B vs C/D/E) and `green\_words` (semantic “green” words in product names) are included as \*\*controls\*\*.
+Controls:
+
+\- `eco\_signal` (OFF eco grade A/B vs C/D/E)
+
+\- `green\_words` (semantic “green” words in product names)
 
 
 
@@ -54,7 +58,7 @@ Stimuli are sampled from \*\*Open Food Facts (OFF)\*\*, an open food product dat
 
 \- OFF product dump is filtered to Denmark-relevant items.
 
-\- Final stimuli restricted to items with Danish-language cues (`lang\_da == 1`) and valid eco grades (A–E).
+\- Final stimuli restricted to items with Danish-language cues (`lang\\\_da == 1`) and valid eco grades (A–E).
 
 
 
@@ -110,7 +114,9 @@ Stimuli are sampled from \*\*Open Food Facts (OFF)\*\*, an open food product dat
 
 &nbsp;   - `stimulus\_set.csv`
 
-\## Data
+
+
+\## Data availability
 
 This project expects the Open Food Facts products export file : `data/raw/en.openfoodfacts.org.products.csv.gz`. This file is not included due to file size. 
 
@@ -186,13 +192,13 @@ name\_overrides\_by\_item\_id = {
 
 \### 4) Running the experiment (PsychoPy)
 
-Presents ine product card per trial, the style of the ØKO badge depends on salience, the participants then responds with a 1-7 sustainability rating. One csv file is saved per participant containing item\_id, product\_name, organic\_badge, salience, eco\_signal, eco\_score,lang\_da, green\_words, category, labels\_tags, languages\_tags, countries\_tags, rating,rt, block\_shown, participant, age, gender, diet, consent
+Presents one product card per trial, the style of the ØKO badge depends on salience, the participants then responds with a 1-7 sustainability rating. One csv file is saved per participant containing item\_id, product\_name, organic\_badge, salience, eco\_signal, eco\_score,lang\_da, green\_words, category, labels\_tags, languages\_tags, countries\_tags, rating,rt, block\_shown, participant, age, gender, diet, consent
 
 
 
 \### 5) Analysis
 
-Data is inspected, then responses are mergedwith stimulus data while appliying RT trimming. Descriptive summaries and figures are constructed. 
+Data are inspected, then responses are merged with stimulus data while applying RT trimming for QC. Descriptive summaries and figures are constructed. 
 
 Rating is analyzed using a linear mixed-effects model with random intercepts for participant and item:
 
@@ -211,7 +217,7 @@ RT is not analyzed as an outcome; it is used only for trimming implausible trial
 \### Software
 
 * Python
-* R
+* R (RStudio recommended for .Rmd)
 * PsychoPy
 
 
@@ -223,7 +229,7 @@ RT is not analyzed as an outcome; it is used only for trimming implausible trial
 
 
 
-\### R dependecies
+\### R dependencies
 
 * tidyverse
 * lme4
