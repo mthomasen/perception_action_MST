@@ -1,0 +1,168 @@
+---
+title: "04_data_inspection"
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse)
+
+responses_dir <- file.path("/work/Perception_and_action/data", "responses")
+stim_path <- file.path("/work/Perception_and_action/data", "processed", "stimulus_set.csv")
+
+figures_dir <- "/work/Perception_and_action/figures"
+```
+
+### Load stimulus set
+```{r}
+stim <- read_csv(stim_path, show_col_types = FALSE) %>%
+  mutate(
+    item_id = as.integer(item_id),
+    organic_badge = as.integer(organic_badge),
+    eco_signal = as.integer(eco_signal),
+    salience = tolower(trimws(as.character(salience))),
+    green_words = suppressWarnings(as.integer(green_words))
+  )
+```
+
+### Load response data
+```{r}
+files <- list.files(responses_dir, pattern = "\\.csv$", full.names = TRUE)
+files <- files[dirname(files) == normalizePath(responses_dir)]
+
+if (length(files) == 0) stop(paste0("No .csv files found in: ", responses_dir))
+
+res_df <- files %>%
+  set_names(basename(.)) %>%
+  map_dfr(~ read_csv(.x, show_col_types = FALSE), .id = "source_file") %>%
+  mutate(
+    participant = if ("participant" %in% names(.)) as.character(participant) else tools::file_path_sans_ext(source_file)
+  )
+```
+
+### Join with stimulus data and save
+```{r}
+full_df <- res_df %>% 
+  left_join(
+    stim %>% 
+      select(
+        item_id, all_of(setdiff(names(stim), c("item_id", names(res_df))))
+      ), 
+    by = "item_id"
+  )
+
+analysis_dir <- file.path("/work/Perception_and_action/data", "analysis")
+dir.create(analysis_dir, recursive = TRUE, showWarnings = FALSE)
+
+write_csv(full_df, file.path(analysis_dir, "full_df.csv"))
+```
+
+### Nummeric data inspection
+```{r}
+cat("n_participants:", n_distinct(full_df$participant), "\n")
+
+cat("\n-- trials per participant --\n")
+print(full_df %>% count(participant, name = "n_trials") %>%
+        summarise(min = min(n_trials), median = median(n_trials), max = max(n_trials)))
+
+cat("\n-- missing stimulus join (item_id not in stimulus_set.csv) --\n")
+print(full_df %>% summarise(n_missing_item = sum(is.na(organic_badge))))
+
+cat("\n-- duplicate participant x item_id --\n")
+print(full_df %>% count(participant, item_id) %>% filter(n > 1) %>% summarise(n_duplicates = n()))
+
+cat("\n-- consent overview (if present) --\n")
+if ("consent" %in% names(full_df)) {
+  print(full_df %>% distinct(participant, consent) %>% count(consent))
+} else {
+  cat("no consent column found\n")
+}
+
+cat("\n-- rating validity --\n")
+print(full_df %>% summarise(
+  n_missing = sum(is.na(rating)),
+  n_outside_1_7 = sum(!is.na(rating) & !(rating %in% 1:7)),
+  min = suppressWarnings(min(rating, na.rm = TRUE)),
+  max = suppressWarnings(max(rating, na.rm = TRUE))
+))
+
+cat("\n-- rt summary --\n")
+print(full_df %>% summarise(
+  n_missing = sum(is.na(rt)),
+  min = suppressWarnings(min(rt, na.rm = TRUE)),
+  median = suppressWarnings(median(rt, na.rm = TRUE)),
+  p95 = suppressWarnings(quantile(rt, 0.95, na.rm = TRUE)),
+  max = suppressWarnings(max(rt, na.rm = TRUE))
+))
+```
+
+### Visual data inspection
+```{r}
+
+p_rating <- full_df %>%
+  ggplot(aes(x = factor(rating))) +
+  geom_bar(fill = "#4C78A8", color = "white", width = 0.9) +
+  labs(
+    title = "Rating distribution",
+    x = "rating (1–7)",
+    y = "count"
+  )
+
+p_rt <- full_df %>%
+  filter(!is.na(rt)) %>%
+  ggplot(aes(x = rt)) +
+  geom_histogram(fill = "grey60", color = "white",bins = 60) +
+  labs(title = "RT distribution (raw)", x = "rt", y = "count")
+
+
+p_rating
+ggsave("rating_distribution.png", plot = p_rating, path = figures_dir)
+
+p_rt
+ggsave("response_time_distribution.png", plot = p_rt, path = figures_dir)
+
+```
+
+### Trimming of response time (preview)
+```{r}
+rt_min <- 0.15
+rt_max <- 15
+
+cat("\n-- trimming preview (", rt_min, "–", rt_max, ") --\n", sep = "")
+print(full_df %>%
+  summarise(
+    n_total = n(),
+    n_rt_nonmissing = sum(!is.na(rt)),
+    n_would_keep = sum(!is.na(rt) & rt >= rt_min & rt <= rt_max),
+    prop_trimmed_of_nonmissing = 1 - (n_would_keep / n_rt_nonmissing)
+  ))
+
+cat("\n-- condition counts (joined rows only) --\n")
+print(full_df %>%
+  filter(!is.na(organic_badge), !is.na(eco_signal), !is.na(salience)) %>%
+  count(organic_badge, eco_signal, salience) %>%
+  arrange(organic_badge, eco_signal, salience))
+
+# Visualization of trimming
+p_rt <- full_df %>%
+  filter(!is.na(rt)) %>%
+  ggplot(aes(x = rt)) +
+  geom_histogram(bins = 60, fill = "#4C78A8", color = "white") +
+  geom_vline(xintercept = rt_min, linewidth = 0.9, color = "#D55E00") +
+  geom_vline(xintercept = rt_max, linewidth = 0.9, color = "#D55E00") +
+  labs(
+    title = "Response time distribution",
+    x = "response time (s)",
+    y = "count"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+
+p_rt
+
+ggsave("response_time_distribution_trimming.png", plot = p_rt, path = figures_dir)
+```

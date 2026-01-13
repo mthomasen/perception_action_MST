@@ -1,0 +1,161 @@
+﻿item_id,product_name,organic_badge,salience,eco_signal,eco_score,lang_da,green_words,category,labels_tags,languages_tags,countries_tags
+1,Tomatketchup Heinz 580 g Økologisk,1,high,1,A,1,1,Groceries,"en:organic,en:eu-organic,en:green-dot,en:nl-bio-01",<na>,"en:denmark,en:france,en:spain"
+2,Græsk yoghurt,1,low,1,A,1,0,Yogurts,"en:organic,en:eu-organic",<na>,en:denmark
+3,Røde kidneybønner,0,high,1,A,1,0,Dried red kidney beans,,<na>,en:denmark
+4,Proteinbrød,0,high,1,A,1,0,Rye breads,en:keyhole,<na>,en:denmark
+5,Økologisk mørk chokolade 70%,1,high,0,D,1,1,Dark chocolates,"en:organic,en:eu-organic",<na>,en:denmark
+6,Økologiske kikærter,1,low,1,A,1,1,Canned chickpeas,"en:organic,en:eu-organic,en:eu-agriculture,en:it-bio-009",<na>,en:denmark
+7,Øko Mini Mælk,1,high,0,C,1,0,Milks,"en:organic,en:eu-organic,en:pasteurized,en:dk-øko-100,en:fsc,en:keyhole,en:dk-oko-100",<na>,en:denmark
+8,øko mayo,1,high,0,C,1,0,Mayonnaises,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+9,Snack Chips Supersprød med Sour Cream & Onion,0,low,1,B,1,0,Potato crisps,,<na>,"en:denmark,en:france,en:germany"
+10,Dansk flormelis,0,high,1,A,1,0,da:flormelis,,<na>,en:denmark
+11,Kidneybønner,1,low,1,A,1,0,Canned red kidney beans,"en:organic,en:eu-organic,en:debio-organic,en:it-bio-009,en:keyhole,sv:krav",<na>,"en:denmark,en:germany"
+12,Jule-hvidtøl,0,high,0,D,1,0,Danish beers,,<na>,en:denmark
+13,Thise vaniljeskyr,1,low,1,A,1,0,Skyrs,da:okologisk,<na>,en:denmark
+14,Økologiske Kikærter,1,high,1,A,1,1,Chickpeas,"en:organic,en:eu-organic,en:dk-øko-100",<na>,"en:denmark,en:faroe-islands"
+15,Varmrøget laks med peber,0,high,0,E,1,0,Smoked salmons,,<na>,en:denmark
+16,Økologisk Sødmælk,0,low,0,D,1,1,Milks,,<na>,en:denmark
+17,"Skummetmælk 0,1% fedt",1,low,1,B,1,0,Milks,"en:organic,en:eu-organic,en:dk-øko-100,en:keyhole",<na>,en:denmark
+18,Økologisk Risdrik,1,high,1,A,1,1,Rice-based drinks,"en:organic,en:eu-organic",<na>,en:denmark
+19,Finvalsede havregryn,0,high,1,A,1,0,Rolled oats,en:keyhole,<na>,en:denmark
+20,Tun på dåse,0,high,0,D,1,0,Canned tunas,"en:sustainable,en:sustainable-fishery,en:keyhole,en:sustainable-seafood-msc",<na>,en:denmark
+21,Multi Frugt Juice,0,low,0,E,1,0,Fruit juices,,<na>,en:denmark
+22,Hvidløg,0,high,0,D,1,0,Cheese spreads,,<na>,en:denmark
+23,"Palæo granola med frø, kerner og nødder",0,high,1,A,1,0,Mueslis,,<na>,en:denmark
+24,Bangs økologisk ingefær shot,0,low,0,E,1,1,Fruit juices,,<na>,en:denmark
+25,Æblegrød,0,high,1,A,1,0,Compotes,,<na>,en:denmark
+26,Mørk chokolade,1,high,0,C,1,0,Dark chocolates,"en:vegetarian,en:organic,en:eu-organic,en:vegan,en:danish-state-controlled-organic,en:dk-øko-100,en:no-lactose,da:fairtransport-med-sejlbåd,da:mindst-70-kakao",<na>,en:denmark
+27,Økologiske græskerkerner,1,high,0,D,1,1,Pumpkin seeds,"en:organic,en:eu-organic,en:lt-eko-001",<na>,"en:denmark,en:germany"
+28,ØGO Økologisk Passata,1,low,1,A,1,1,da:tomatpure,"en:organic,en:eu-organic,en:it-bio-009",<na>,en:denmark
+29,Iskaffe havre drik,1,high,1,B,1,0,Oat-based drinks,"en:organic,en:eu-organic,en:fsc,en:it-bio-009",<na>,en:denmark
+30,Økologisk peberfrugt,1,high,1,A,1,1,Red bell peppers,"en:organic,en:eu-organic",<na>,en:denmark
+31,Økologiske chiafrø,1,low,0,D,1,1,Chia,"en:organic,en:eu-organic",<na>,en:denmark
+32,Sorte bønner,1,low,1,A,1,0,nb:sorte-bønner,"en:organic,en:eu-organic,en:debio-organic,en:green-dot,en:it-bio-009,en:keyhole",<na>,"en:denmark,en:germany,en:norway"
+33,Minimælk,0,low,0,D,1,0,Cow milks,en:keyhole,<na>,en:denmark
+34,Skyr Citron Cheesecake,0,low,1,A,1,0,Whole milk yogurts,,<na>,en:denmark
+35,Grøntsagsbouillon,0,high,1,A,1,0,Groceries,en:no-gluten,<na>,"en:denmark,en:germany,en:sweden"
+36,Små fiskefrikadeller med laks,0,high,0,E,1,0,Fried fish croquette,"en:sustainable,en:sustainable-fishery,en:keyhole,en:sustainable-seafood-msc",<na>,en:denmark
+37,Økologisk smør,1,low,0,C,1,1,Butters,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+38,Pågenlimpan,0,low,1,A,1,0,sv:matbröd,en:no-preservatives,<na>,"en:denmark,en:france,en:sweden"
+39,Kakao Skummet Mælk,0,high,0,D,1,0,Cow milks,,<na>,en:denmark
+40,Lys Pålægschokolade,0,low,0,D,1,0,Milk chocolates,"en:sustainable-farming,en:utz-certified",<na>,en:denmark
+41,Økologisk Grønsagsjuice,1,low,0,D,1,1,Refrigerated vegetable juices,"en:organic,en:eu-organic",<na>,en:denmark
+42,Sødmælk,1,low,0,C,1,0,Milks,en:organic,<na>,en:denmark
+43,Økologisk Blomster Honning,1,low,1,A,1,1,Honeys,"en:organic,en:eu-organic",<na>,en:denmark
+44,Grønne linser,0,low,1,A,1,0,Green lentils,,<na>,en:denmark
+45,Fløde Havarti,0,high,0,C,1,0,Havarti,en:pgi,<na>,en:denmark
+46,"Skyr m. vanilje 0,2% fedt",1,high,1,B,1,0,Skyrs,en:organic,<na>,en:denmark
+47,Rustikki Bread Sticks Blå Birkes,0,low,1,B,1,0,Breadsticks,,<na>,en:denmark
+48,Økologiske hakkede tomater,1,low,1,A,1,1,Canned tomato pulp,"en:organic,en:eu-organic,en:it-bio-009,en:keyhole",<na>,en:denmark
+49,Yoggi yoghurt fersken og hindbær,0,low,1,B,1,0,Yogurts,,<na>,en:denmark
+50,Havrepuder - Rasmus Klump,0,high,0,D,1,0,Breakfast cereals,,<na>,en:denmark
+51,"Orginal med Solsikke-, Hørfrø- & Rapsoile",0,high,1,B,1,0,30-40% fat unsalted vegetable fat high in omega 3,"en:vegetarian,en:vegan,en:keyhole",<na>,en:denmark
+52,Mandelmælk,0,low,0,C,1,0,da:mandelmælk,,<na>,en:denmark
+53,"Egelykke Jordbær yogurt 1,4 % fedt",0,high,1,A,1,0,Fruit yogurts,en:made-in-denmark,<na>,en:denmark
+54,Skyr med frugt,0,low,1,B,1,0,Fromages blancs with fruits,,<na>,en:denmark
+55,Finvalsede havregryn,1,high,1,A,1,0,Oat,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+56,Økoligisk Havre Drink,1,high,1,B,1,0,Oat-based drinks,"en:organic,en:vegetarian,en:eu-organic,en:vegan,en:it-bio-009",<na>,en:denmark
+57,Laktosefri Mælkechokolade,0,low,0,E,1,0,Milk chocolates,,<na>,en:denmark
+58,Havregryn finvalsede,0,high,1,B,1,0,Oat,en:keyhole,<na>,en:denmark
+59,Butterdejssløjfer,0,low,0,C,1,0,Biscuits,,<na>,en:denmark
+60,Økologisk Skummet Mælk,1,high,0,C,1,1,Cow milks,"en:organic,en:eu-organic,en:dk-øko-100,en:keyhole",<na>,en:denmark
+61,ØGO Hvedemel,1,high,1,A,1,0,da:hvedemel,"en:organic,en:eu-organic",<na>,en:denmark
+62,Orginal Rød Lakrids Jordbærsmag,0,low,0,C,1,0,Candies,,<na>,en:denmark
+63,Ekologisk Ost Blåmögel (36% MG),1,high,1,B,1,0,Pasteurized cheeses,"en:organic,en:eu-organic,en:dk-øko-100,en:green-dot",<na>,"en:denmark,en:france,en:united-kingdom"
+64,"Salling Minimælk 0,4% fedt",0,low,1,B,1,0,Cow milks,,<na>,en:denmark
+65,Barista Havredrik,0,high,0,C,1,0,Oat-based drinks,en:fsc,<na>,en:denmark
+66,Mørk chocolade 70% kakao,1,high,0,C,1,0,Dark chocolates,"en:fair-trade,en:organic,en:eu-organic,en:fairtrade-international,en:it-bio-014",<na>,en:denmark
+67,Øko æg,0,low,0,D,1,0,Eggs,,<na>,en:denmark
+68,Økologisk kakao soya drik,1,high,1,A,1,1,Soy-based drinks,"en:organic,en:eu-organic",<na>,en:denmark
+69,Økologiske chiafrø,1,low,0,D,1,1,Chia,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+70,Grovvalsede Havregryn,0,high,1,B,1,0,Oat,,<na>,en:denmark
+71,Mørk Pålægs-chokolade,1,low,0,D,1,0,Dark chocolates,"en:fair-trade,en:organic,en:eu-organic,en:dk-øko-100",<na>,"en:denmark,en:france"
+72,Tykmælk,0,low,0,C,1,0,Tykmaelk,"en:fsc,en:fsc-mix",<na>,en:denmark
+73,Biodrik Solbær,1,high,0,C,1,1,Fruit-based beverages,en:organic,<na>,en:denmark
+74,ØKO Solsikke Rugbrød,1,low,1,A,1,0,Rye breads,"en:organic,en:eu-organic,en:keyhole",<na>,en:denmark
+75,Økologisk Koldpresset Juice med Gulerod,1,high,0,D,1,1,da:juice,"en:organic,en:eu-organic",<na>,en:denmark
+76,"Yalla! Drikkeyoghurt, Jordbær & granatæble laktosefri",0,low,1,A,1,0,nb:drickkvarg,,<na>,"en:denmark,en:sweden"
+77,Græsk  yoghurt,0,low,1,B,1,0,Yogurts,,<na>,en:denmark
+78,Cocio classic chokolademælk,0,low,0,C,1,0,da:chokolademælk,"en:sustainable-farming,en:utz-certified",<na>,en:denmark
+79,Kikærter,0,high,1,A,1,0,Chickpeas,,<na>,en:denmark
+80,hindbær marmelade,1,low,1,A,1,0,Jams,"en:organic,en:eu-organic,en:pl-eko-01",<na>,en:denmark
+81,Økologisk Skummetmælk,1,low,0,C,1,1,Milks,"en:organic,en:eu-organic,en:dk-øko-100,en:fsc,en:fsc-mix,en:keyhole",<na>,en:denmark
+82,Salling Øko Peanut Butter,1,low,0,C,1,0,Peanut butters,"en:organic,en:eu-organic",<na>,en:denmark
+83,Castello Blå Økologisk,1,low,0,C,1,1,Causses blue cheeses,"en:no-gluten,en:organic,en:eu-organic,en:dk-øko-100,en:high-in-salt-finland",<na>,"en:denmark,en:norway"
+84,Havre Kakao,0,low,0,D,1,0,Milks,,<na>,en:denmark
+85,Riskiks med chokolade ØKO,1,high,1,A,1,0,Puffed rice cakes with black chocolate,"en:organic,en:eu-organic",<na>,en:denmark
+86,Dansk Sukker,0,low,1,A,1,0,Sugars,,<na>,en:denmark
+87,Mørk chokolade med appelsin,0,low,0,E,1,0,Dark chocolate bar with more than 70% cocoa,,<na>,en:denmark
+88,Stærk pesto peperfrugt,0,high,0,D,1,0,Pestos,,<na>,en:denmark
+89,Kærgården Økologisk,1,high,0,D,1,1,Butters,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+90,Mælk,0,low,0,D,1,0,Milks,,<na>,en:denmark
+91,Soltørrede dadler,1,high,1,B,1,0,Dates,"en:organic,en:eu-organic,en:non-eu-agriculture,en:danish-state-controlled-organic,en:debio-organic,en:dk-øko-100",<na>,en:denmark
+92,Danfrugt Sveske Juice,0,low,0,E,1,0,Fruit juices,,<na>,en:denmark
+93,Frugtcocktail,0,high,1,B,1,0,Canned fruit cocktail in light syrup,,<na>,en:denmark
+94,Økologiske Hvidløg,1,low,1,A,1,1,Garlic,"en:organic,en:eu-organic,en:es-eco-020-cv",<na>,en:denmark
+95,Havrekakao,1,low,0,C,1,0,Cocoa oat-based drinks,en:organic,<na>,en:denmark
+96,Økologisk Hvidløgs dressing,1,low,0,C,1,1,Salad dressings,"en:organic,en:eu-organic",<na>,en:denmark
+97,økologisk yoghurt 2% jordbær,1,high,1,A,1,1,Strawberry yogurts,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+98,Let smør,1,high,0,E,1,0,Butters,en:organic,<na>,en:denmark
+99,Mørk Chokolade Orange,1,low,0,D,1,0,Dark chocolates,"en:organic,en:eu-organic,en:it-bio-014",<na>,en:denmark
+100,Øko Naturel Yoghurt,0,high,1,B,1,0,Plain yogurts,en:keyhole,<na>,en:denmark
+101,Økologiske kikærter i vand,0,low,1,B,1,1,Canned chickpeas,en:keyhole,<na>,en:denmark
+102,Økologisk Yoghurt Mango & Passion,1,low,1,B,1,1,Passion,en:organic,<na>,en:denmark
+103,Baguette med hvidløgssmør,0,low,1,A,1,0,Baguette made with type T55-T110 flour,,<na>,en:denmark
+104,Økologisk Hindbær,1,low,1,A,1,1,Jams,"en:fair-trade,en:organic,en:eu-organic,en:fairtrade-international,en:dk-øko-100",<na>,en:denmark
+105,Hvidløgsdressing,0,high,0,D,1,0,Salad dressings,,<na>,en:denmark
+106,Pistacienødder,0,high,0,E,1,0,Pistachios,,<na>,en:denmark
+107,Mørk Chokolade,1,high,0,D,1,0,Dark chocolates,"en:organic,en:eu-organic",<na>,en:denmark
+108,Løgismose Økologisk pålægschokoladepålæg lys 38% kakao,1,low,0,D,1,1,Milk chocolates,"en:organic,en:eu-organic,en:nl-bio-01",<na>,en:denmark
+109,Frugt mysli,0,low,1,B,1,0,Mueslis,,<na>,en:denmark
+110,Økologiske æg,1,high,0,C,1,1,Barn chicken eggs,"en:organic,en:eu-organic,en:dk-øko-050,en:dk-øko-100,en:eu-agriculture",<na>,en:denmark
+111,Økologiske finvalsede havregryn,0,high,1,B,1,1,Oat,en:keyhole,<na>,en:denmark
+112,Minimælk,0,high,0,D,1,0,Cow milks,,<na>,en:denmark
+113,Løgismose Vanilje Skyr,1,low,1,A,1,0,da:surmælk,"en:organic,en:eu-organic",<na>,en:denmark
+114,Remoulade,0,high,0,D,1,0,da:remoulade,,<na>,"en:denmark,en:germany"
+115,Mørk Chokolade 85% Kakao,1,high,0,D,1,0,Dark chocolates,"en:fair-trade,en:organic,en:eu-organic,en:fairtrade-international,en:it-bio-014",<na>,en:denmark
+116,Minimælk 0.4% fedt,1,high,1,B,1,0,Cow milks,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+117,Ristede Løg,0,high,1,A,1,0,Garlic,,<na>,en:denmark
+118,Økologisk Ingefærshot Med Æble Og Citron,1,low,0,D,1,1,Fruit juices,"en:organic,en:eu-organic,en:be-bio-03",<na>,en:denmark
+119,Havrekiks med Kakao,1,high,1,B,1,0,Biscuits,"en:organic,en:eu-organic,en:danish-state-controlled-organic,en:dk-øko-100",<na>,"en:denmark,en:russia"
+120,Burger boller,0,high,1,B,1,0,Hamburger buns,,<na>,en:denmark
+121,Irmas Økologiske Ægte Mayonnaise,1,low,0,C,1,1,Mayonnaises,"en:organic,en:eu-organic,en:nl-bio-01",<na>,en:denmark
+122,Grødris,1,low,0,C,1,0,Rices,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+123,Økologisk græsk yoghurt,1,high,1,A,1,1,Greek-style yogurts,"en:organic,en:eu-organic",<na>,en:denmark
+124,Danfrugt Multifrugt Juice,0,low,0,D,1,0,Fruit juices,,<na>,"en:denmark,en:germany"
+125,Økologiske Brune Ris,1,low,0,D,1,1,da:brune-fuldkornsris,"en:organic,en:eu-organic,en:danish-state-controlled-organic,en:dk-øko-100,en:keyhole,en:whole-grain",<na>,en:denmark
+126,Hvidløgs Kebabdressing,0,high,0,C,1,0,Salad dressings,,<na>,"en:denmark,en:germany"
+127,Letmælksyoughurt,0,low,0,C,1,0,da:youghurt,"en:fsc,en:fsc-mix",<na>,en:denmark
+128,Parmigiano Reggiano DOP Økologisk 24 mdr.,1,high,0,C,1,1,Parmigiano-Reggiano,"en:organic,en:eu-organic,en:designated-origin-denomination,en:it-bio-009,en:pdo",<na>,en:denmark
+129,Grønne oliven med mandler,0,low,1,A,1,0,Olives,,<na>,en:denmark
+130,Økologiske rosiner,1,low,1,A,1,1,Raisins,"en:organic,en:eu-organic",<na>,en:denmark
+131,Hindbærmarmelade,0,low,1,B,1,0,Jams,,<na>,en:denmark
+132,Fat free hvidløg dressing,0,high,0,D,1,0,Groceries,,<na>,en:denmark
+133,Piskefløde,0,low,1,B,1,0,Whipped creams,"en:fsc,en:fsc-mix",<na>,en:denmark
+134,Danfrugt Appelsin Juice,0,high,0,D,1,0,Orange juices,,<na>,en:denmark
+135,"Rema, Økologiske Æg",1,low,0,C,1,1,Eggs,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+136,Økologisk Peanut Butter Crunchy,1,low,0,D,1,1,Peanut butters,"en:organic,en:non-eu-agriculture",<na>,en:denmark
+137,Minimælk,1,high,0,C,1,0,Milks,"en:organic,en:eu-organic,en:dk-øko-100,en:fsc,en:fsc-mix",<na>,en:denmark
+138,Økologisk letmælk,1,high,0,C,1,1,Milks,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+139,Økologiske brune ris,1,low,0,D,1,1,Brown rices,"en:organic,en:eu-organic,en:dk-øko-100,en:keyhole",<na>,en:denmark
+140,Økologisk hakkede tomater,1,low,1,A,1,1,da:hakkede-tomater,"en:organic,en:eu-organic,en:it-bio-009,en:keyhole",<na>,en:denmark
+141,Hindbær Syltetøj,0,high,1,B,1,0,Jams,,<na>,en:denmark
+142,Økologiske Linser,1,high,1,A,1,1,Prepared lentils,"en:organic,en:eu-organic,en:keyhole",<na>,"en:denmark,en:france"
+143,Yoghurt hindbær,0,low,1,B,1,0,Yogurts,,<na>,"en:denmark,en:turkey"
+144,Minimælk,0,high,0,D,1,0,Milks,,<na>,en:denmark
+145,Øko Dansk Letmælk,1,high,0,C,1,0,Milks,"en:organic,en:eu-organic,en:dk-øko-100",<na>,en:denmark
+146,Cup Noodles med oksekødsmag,0,high,0,C,1,0,Instant noodles,,<na>,en:denmark
+147,Økologisk Kalamata Oliventapanade,1,high,1,A,1,1,da:tapanade,"en:organic,en:eu-organic",<na>,en:denmark
+148,Økologisk Rød Pesto,1,high,0,C,1,1,Pestos,"en:organic,en:eu-organic",<na>,en:denmark
+149,Økologisk minimælk,1,high,0,C,1,1,Cow milks,"en:organic,en:eu-organic,en:dk-øko-100,en:eu-agriculture,en:fsc,en:fsc-recycling,en:no-lactose",<na>,en:denmark
+150,Frisk rødkål,0,low,1,A,1,0,Red cabbage,,<na>,en:denmark
+151,Let-Mælk,0,low,0,D,1,0,Semi-skimmed milks,,<na>,en:denmark
+152,"Hvedemel, økologisk",1,low,1,A,1,1,Wheat flours,"en:organic,en:eu-organic,en:de-oko-001",<na>,en:denmark
+153,Økologisk blomster honning,1,low,1,A,1,1,Honeys,"en:organic,en:eu-organic,en:non-eu-agriculture,en:danish-state-controlled-organic,en:dk-øko-100,en:eu-agriculture,en:eu-non-eu-agriculture",<na>,en:denmark
+154,Oksekød Burrito,0,high,0,E,1,0,Burritos,,<na>,en:denmark
+155,Røde Linser,0,low,1,A,1,0,Lentils,en:keyhole,<na>,en:denmark
+156,Skyr Vanilje,0,high,1,B,1,0,Skyrs,"en:pasteurized,en:source-of-proteins,en:high-proteins",<na>,"en:denmark,en:france"
+157,knækbrød,0,high,1,B,1,0,Crisps of red potatoes,,<na>,en:denmark
+158,Økologiske hakkede tomater,1,high,1,A,1,1,Tomatoes,"en:organic,en:eu-organic",<na>,en:denmark
+159,Økologisk havre drik,1,low,1,B,1,1,Oat-based drinks,"en:organic,en:eu-organic,en:it-bio-009,en:keyhole",<na>,en:denmark
+160,Økologiske Vilde Blåbær,0,low,0,C,1,1,Frozen blueberries,,<na>,en:denmark

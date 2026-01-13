@@ -1,0 +1,119 @@
+---
+title: "Stimulus Set Descriptives"
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setip, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+library(tidyverse)
+
+```
+
+```{r}
+data_path <- "/work/Perception_and_action/data"
+
+stim_df_raw <- read_csv(file.path(data_path, "processed/stimulus_set.csv"))
+```
+
+```{r}
+stim_df <- stim_df_raw %>%
+  mutate(
+    item_id = as.integer(item_id),
+    product_name = as.character(product_name),
+    salience = tolower(trimws(as.character(salience))),
+    organic_badge = as.integer(organic_badge),
+    eco_signal = as.integer(eco_signal),
+    eco_score = as.character(eco_score),
+    lang_da = as.integer(lang_da),
+    green_words = as.integer(green_words),
+    category = as.character(category)
+  )
+```
+
+### Overall stimulus summary
+```{r}
+stim_df %>%
+  summarise(
+    n_items = n(),
+    n_unique_item_id = n_distinct(item_id),
+    n_unique_product_name = n_distinct(product_name),
+    n_duplicated_product_name_rows = sum(duplicated(product_name)),
+    pct_organic_badge = mean(organic_badge == 1, na.rm = TRUE) * 100,
+    pct_eco_signal = mean(eco_signal == 1, na.rm = TRUE) * 100,
+    pct_lang_da = mean(lang_da == 1, na.rm = TRUE) * 100,
+    pct_green_words = mean(green_words == 1, na.rm = TRUE) * 100
+    )
+```
+
+### Design balance
+```{r}
+stim_df %>% 
+  count(organic_badge, eco_signal, name = "n_items") %>% 
+  arrange(organic_badge, eco_signal)
+
+stim_df %>%  
+  count(organic_badge, eco_signal, salience, name = "n_items") %>% 
+  arrange(organic_badge, eco_signal, salience)
+```
+
+
+### Eco-score distribution
+```{r}
+stim_df %>% 
+  mutate(eco_score = tolower(trimws(eco_score))) %>% 
+  count(eco_score, name = "n_items") %>% 
+  arrange(desc(n_items))
+
+stim_df %>% 
+  mutate(
+    eco_score_l = tolower(trimws(eco_score)),
+    eco_signal_expected = ifelse(eco_score_l %in% c("a", "b"), 1L, 0L),
+    mismatch = eco_signal != eco_signal_expected
+  ) %>% 
+  summarise(
+    n_mismatch = sum(mismatch, na.rm = TRUE)
+  )
+```
+
+### Duplicated product names
+```{r}
+stim_df %>% 
+  count(product_name, name = "n") %>% 
+  filter(n>1) %>% 
+  arrange(desc(n), product_name)
+```
+
+### Cue prevalence by condition
+```{r}
+stim_df %>% 
+  group_by(organic_badge, eco_signal, salience) %>% 
+  summarise(
+    n = n(),
+    pct_green_words = mean(green_words == 1, na.rm = TRUE)*100,
+    pct_land_da = mean(lang_da ==1, na.rm = TRUE)*100,
+    .groups = "drop"
+  ) %>% 
+  arrange(organic_badge, eco_signal, salience)
+```
+
+
+### Category overview
+```{r}
+stim_df %>% 
+  count(category, name= "n_items") %>% 
+  arrange(desc(n_items)) %>% 
+  slice_head(n = 20)
+
+stim_df %>% 
+  group_by(organic_badge, eco_signal) %>% 
+  summarise(
+    n_unique_categories = n_distinct(category),
+    .groups = "drop"
+  ) %>% 
+  arrange(organic_badge, eco_signal)
+
+```
+

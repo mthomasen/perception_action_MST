@@ -1,0 +1,214 @@
+---
+title: "06_descriptive"
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+```{r, include = FALSE}
+library(tidyverse)
+
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+
+analysis_dir <- file.path("/work/Perception_and_action/data", "analysis")
+figures_dir <- "/work/Perception_and_action/figures"
+
+theme_set(
+  theme_minimal(base_size = 13) +
+    theme(
+      plot.title = element_text(face = "bold"),
+      panel.grid.minor = element_blank(),
+      legend.position = "right"
+    )
+)
+
+pal_okabe_ito <- c(
+  "low_eco"  = "#0072B2",  
+  "high_eco" = "#D55E00"   
+)
+```
+
+```{r}
+analysis_df <- read_csv(file.path(analysis_dir, "analysis_df.csv"),
+                    show_col_types = FALSE)
+
+exclusions_out <- read_csv(file.path(analysis_dir, "exclusions_report.csv"), show_col_types = FALSE)
+```
+
+### Exclusion overview
+```{r}
+exclusions_out
+```
+
+
+### Sample descriptives
+```{r}
+n_participants <- n_distinct(analysis_df$participant)
+n_trials_total <- nrow(analysis_df)
+
+trials_per_participant <- analysis_df %>%
+  count(participant, name = "n_trials") %>%
+  summarise(
+    min = min(n_trials),
+    median = median(n_trials),
+    max = max(n_trials)
+    )
+
+rating_validity <- analysis_df %>%
+  summarise(
+    n_missing = sum(is.na(rating)),
+    n_outside_1_7 = sum(!is.na(rating) & !(rating %in% 1:7)),
+    min = suppressWarnings(min(rating, na.rm = TRUE)),
+    max = suppressWarnings(max(rating, na.rm = TRUE))
+    )
+
+rt_summary <- analysis_df %>%
+  summarise(
+    n_missing = sum(is.na(rt)),
+    min = suppressWarnings(min(rt, na.rm = TRUE)),
+    median = suppressWarnings(median(rt, na.rm = TRUE)),
+    p95 = suppressWarnings(quantile(rt, 0.95, na.rm = TRUE)),
+    max = suppressWarnings(max(rt, na.rm = TRUE))
+    )
+
+list(
+  n_participants = n_participants,
+  n_trials_total = n_trials_total,
+  trials_per_participant = trials_per_participant,
+  rating_validity = rating_validity,
+  rt_summary = rt_summary
+  )
+
+```
+
+### Participant descriptives
+```{r}
+participants_df <- analysis_df %>%
+  group_by(participant) %>%
+  summarise(
+    age = suppressWarnings(as.numeric(first(na.omit(age)))),
+    gender = as.character(first(na.omit(gender))),
+    diet = as.character(first(na.omit(diet))),
+    .groups = "drop"
+  )
+
+age_summary <- participants_df %>%
+  summarise(
+    n = n(),
+    n_age_nonmissing = sum(!is.na(age)),
+    mean_age = mean(age, na.rm = TRUE),
+    sd_age = sd(age, na.rm = TRUE),
+    min_age = min(age, na.rm = TRUE),
+    max_age = max(age, na.rm = TRUE)
+    )
+
+gender_counts <- participants_df %>%
+  filter(!is.na(gender) & gender != "") %>%
+  count(gender, name = "n") %>%
+  arrange(desc(n))
+
+diet_counts <- participants_df %>%
+  filter(!is.na(diet) & diet != "") %>%
+  count(diet, name = "n") %>%
+  arrange(desc(n))
+
+age_summary
+gender_counts 
+diet_counts 
+```
+
+### Rating distribution
+```{r}
+p_rating <- analysis_df %>%
+  ggplot(aes(x = factor(rating))) +
+  geom_bar(fill = "#4C78A8", color = "white", width = 0.9) +
+  labs(
+    title = "Rating distribution",
+    x = "rating (1–7)",
+    y = "count"
+  )
+
+p_rating
+```
+
+
+### Rating summary
+```{r}
+rating_overall <- analysis_df %>%
+  summarise(
+    n = n(),
+    mean = mean(rating, na.rm = TRUE),
+    sd = sd(rating, na.rm = TRUE),
+    median = median(rating, na.rm = TRUE),
+    min = min(rating, na.rm = TRUE),
+    max = max(rating, na.rm = TRUE)
+    )
+
+rating_by_condition <- analysis_df %>%
+  group_by(badge_salience, eco_signal) %>%
+  summarise(
+    n = n(),
+    mean = mean(rating, na.rm = TRUE),
+    sd = sd(rating, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  arrange(badge_salience, eco_signal)
+
+rating_overall 
+rating_by_condition 
+```
+
+### Visualization
+```{r}
+rating_participant_means <- analysis_df %>%
+  group_by(participant, badge_salience, eco_signal) %>%
+  summarise(mean_rating = mean(rating), .groups = "drop")
+
+summary_for_plot <- rating_participant_means %>%
+  group_by(badge_salience, eco_signal) %>%
+  summarise(
+    mean = mean(mean_rating),
+    se = sd(mean_rating) / sqrt(n()),
+    n = n(),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    badge_salience = factor(
+      badge_salience,
+      levels = c("no_badge", "badge_low", "badge_high"),
+      labels = c("No badge", "Badge (low salience)", "Badge (high salience)")
+    )
+  )
+
+p_mean <- summary_for_plot %>%
+  ggplot(aes(
+    x = badge_salience, y = mean,
+    group = eco_signal,
+    color = eco_signal,
+    linetype = eco_signal
+  )) +
+  geom_line(linewidth = 0.9) +
+  geom_point(size = 2.4) +
+  geom_errorbar(aes(ymin = mean - 1.96 * se, ymax = mean + 1.96 * se), width = 0.12) +
+  scale_color_manual(values = pal_okabe_ito) +
+  labs(
+    title = "Mean rating by badge condition and eco-signal (participant means)",
+    x = NULL,
+    y = "mean rating (± 95% CI across participants)",
+    color = "eco-signal",
+    linetype = "eco-signal"
+  )
+
+p_mean
+
+ggsave(
+  filename = "mean_rating_by_badge_condition.png",
+  plot = p_mean,
+  path = figures_dir,
+  width = 7,
+  height = 4,
+  dpi = 300
+)
+
+
+```

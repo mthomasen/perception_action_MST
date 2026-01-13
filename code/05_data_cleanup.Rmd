@@ -1,0 +1,108 @@
+---
+title: "05_data_cleanup"
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+
+```{r, include = FALSE}
+library(tidyverse)
+
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+
+analysis_dir <- file.path("/work/Perception_and_action/data", "analysis")
+dir.create(analysis_dir, recursive = TRUE, showWarnings = FALSE)
+
+rt_min <- 0.15
+rt_max <- 15
+```
+
+```{r}
+full_df <- read_csv(file.path(analysis_dir, "full_df.csv"), show_col_types = FALSE)
+
+# standardizing labels and types
+full_df_stand <- full_df %>%
+  mutate(
+    participant = as.factor(participant),
+    item_id = as.factor(item_id),
+    organic_badge = as.integer(organic_badge),
+    eco_signal = as.integer(eco_signal),
+    salience = tolower(trimws(as.character(salience))),
+    green_words = as.integer(green_words)
+  )
+
+#Track exclusion
+exclusions <- tibble(
+  step = c(
+    "start (all rows)",
+    "consent == 1",
+    "valid rating (1–7)",
+    paste0("valid RT (", rt_min, "–", rt_max, "s)"),
+    "valid salience (low/high)"
+  ),
+  n = NA_integer_
+)
+
+exclusions$n[1] <- nrow(full_df_stand)
+
+tmp <- full_df_stand
+
+# consent
+if ("consent" %in% names(tmp)) {
+  tmp <- tmp %>% filter(consent == 1)
+}
+exclusions$n[2] <- nrow(tmp)
+
+# rating validity
+tmp <- tmp %>% filter(!is.na(rating), rating %in% 1:7)
+exclusions$n[3] <- nrow(tmp)
+
+# RT validity
+tmp <- tmp %>% filter(!is.na(rt), rt >= rt_min, rt <= rt_max)
+exclusions$n[4] <- nrow(tmp)
+
+# salience validity
+tmp <- tmp %>% filter(salience %in% c("low", "high"))
+exclusions$n[5] <- nrow(tmp)
+
+#print and save exclusion report
+exclusions_out <- exclusions %>%
+  mutate(excluded_this_step = c(NA, -diff(n)))
+
+print(exclusions_out)
+write_csv(exclusions_out, file.path(analysis_dir, "exclusions_report.csv"))
+
+
+# Constructing final analysis data set
+analysis_df <- tmp %>%
+  mutate(
+    badge_salience = case_when(
+    organic_badge == 0 ~ "no_badge",
+    organic_badge == 1 & salience == "low" ~ "badge_low",
+    organic_badge == 1 & salience == "high" ~ "badge_high",
+    TRUE ~ NA_character_
+    ),
+    badge_salience = factor(badge_salience, levels = c("no_badge", "badge_low", "badge_high")),
+    eco_signal = factor(eco_signal, levels = c(0, 1), labels = c("low_eco", "high_eco"))
+    )
+
+# Badge salience sanity check
+n_badge_salience_na <- sum(is.na(analysis_df$badge_salience))
+if (n_badge_salience_na > 0) {
+  warning("badge_salience has NA values: ", n_badge_salience_na,
+          ". Check organic_badge/salience coding.")
+  }
+
+# Analysis data set summary
+analysis_df %>%
+  summarise(
+    n_rows = n(),
+    n_participants = n_distinct(participant),
+    n_items = n_distinct(item_id)
+  )
+
+# save analysis data set
+write_csv(analysis_df, file.path(analysis_dir, "analysis_df.csv"))
+
+```
