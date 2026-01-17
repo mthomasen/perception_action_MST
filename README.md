@@ -53,6 +53,11 @@ Stimuli are sampled from Open Food Facts (OFF), an open food product database:
     - off_flags_dk.csv
     - stimulus_set.csv
 
+- references/
+  - references_zotero.rdf
+  - files/
+    - (PDF attachments exported by Zotero)
+
 ### Pipeline overview
 
 **1. Clean OFF data (01_clean_data.py)**
