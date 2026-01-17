@@ -1,0 +1,2413 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="https://doi.org/10.3758/s13428-018-01193-y">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1554-3528"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peirce</foaf:surname>
+                        <foaf:givenName>Jonathan W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gray</foaf:surname>
+                        <foaf:givenName>Jeremy R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Simpson</foaf:surname>
+                        <foaf:givenName>Sol</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MacAskill</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Höchenberger</foaf:surname>
+                        <foaf:givenName>Richard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sogo</foaf:surname>
+                        <foaf:givenName>Hiroyuki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kastman</foaf:surname>
+                        <foaf:givenName>Erik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lindeløv</foaf:surname>
+                        <foaf:givenName>Jonas Kristoffer</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_592"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Psychology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Experiment</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Open science</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Open-source</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Reaction time</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Software</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Timing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>PsychoPy2: Experiments in behavior made easy</dc:title>
+        <dcterms:abstract>PsychoPy is an application for the creation of experiments in behavioral science (psychology, neuroscience, linguistics, etc.) with precise spatial control and timing of stimuli. It now provides a choice of interface; users can write scripts in Python if they choose, while those who prefer to construct experiments graphically can use the new Builder interface. Here we describe the features that have been added over the last 10 years of its development. The most notable addition has been that Builder interface, allowing users to create studies with minimal or no programming, while also allowing the insertion of Python code for maximal flexibility. We also present some of the other new features, including further stimulus options, asynchronous time-stamped hardware polling, and better support for open science and reproducibility. Tens of thousands of users now launch PsychoPy every month, and more than 90 people have contributed to the code. We discuss the current state of the project, as well as plans for the future.</dcterms:abstract>
+        <dc:date>2019-02-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>PsychoPy2</z:shortTitle>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.3758/s13428-018-01193-y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-01 11:26:02</dcterms:dateSubmitted>
+        <bib:pages>195-203</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1554-3528">
+        <prism:volume>51</prism:volume>
+        <dc:title>Behavior Research Methods</dc:title>
+        <dc:identifier>DOI 10.3758/s13428-018-01193-y</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Behav Res</dcterms:alternative>
+        <dc:identifier>ISSN 1554-3528</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_592">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/592/Peirce et al. - 2019 - PsychoPy2 Experiments in behavior made easy.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.3758%2Fs13428-018-01193-y.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-01 11:26:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Data rdf:about="#item_611">
+        <z:itemType>computerProgram</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Vienna, Austria</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>R Foundation for Statistical Computing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>R Core Team</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <prism:edition>R 4.5.2</prism:edition>
+        <dc:title>R: a language and environment for statistical computing</dc:title>
+        <dc:date>2025</dc:date>
+    </bib:Data>
+    <bib:Article rdf:about="https://doi.org/10.18637/jss.v082.i13">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1548-7660"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kuznetsova</foaf:surname>
+                        <foaf:givenName>Alexandra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brockhoff</foaf:surname>
+                        <foaf:givenName>Per B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Christensen</foaf:surname>
+                        <foaf:givenName>Rune H. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_613"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ANOVA</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>denominator degree of freedom</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>linear mixed effects models</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>lme4</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>R</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Satterthwaite's approximation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>lmerTest Package: Tests in Linear Mixed Effects Models</dc:title>
+        <dcterms:abstract>One of the frequent questions by users of the mixed model function lmer of the lme4 package has been: How can I get p values for the F and t tests for objects returned by lmer? The lmerTest package extends the 'lmerMod' class of the lme4 package, by overloading the anova and summary functions by providing p values for tests for fixed effects. We have implemented the Satterthwaite's method for approximating degrees of freedom for the t and F tests. We have also implemented the construction of Type I - III ANOVA tables. Furthermore, one may also obtain the summary as well as the anova table using the Kenward-Roger approximation for denominator degrees of freedom (based on the KRmodcomp function from the pbkrtest package). Some other convenient mixed model analysis tools such as a step method, that performs backward elimination of nonsignificant effects  -  both random and fixed, calculation of population means and multiple comparison tests together with plot facilities are provided by the package as well.</dcterms:abstract>
+        <dc:date>2017-12-06</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>lmerTest Package</z:shortTitle>
+        <z:libraryCatalog>www.jstatsoft.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.18637/jss.v082.i13</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-06 10:23:57</dcterms:dateSubmitted>
+        <dc:rights>Copyright (c) 2017 Alexandra Kuznetsova, Per B. Brockhoff, Rune H. B. Christensen</dc:rights>
+        <bib:pages>1-26</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1548-7660">
+        <prism:volume>82</prism:volume>
+        <dc:title>Journal of Statistical Software</dc:title>
+        <dc:identifier>DOI 10.18637/jss.v082.i13</dc:identifier>
+        <dc:identifier>ISSN 1548-7660</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_613">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/613/Kuznetsova et al. - 2017 - lmerTest Package Tests in Linear Mixed Effects Mo.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.jstatsoft.org/index.php/jss/article/view/v082i13/v82i13.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-06 10:23:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.jstatsoft.org/article/view/v067i01/0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>67</prism:volume>
+                <dc:title>Journal of statistical software</dc:title>
+                <dc:identifier>DOI 10.18637/jss.v067.i01</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bates</foaf:surname>
+                        <foaf:givenName>Douglas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mächler</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bolker</foaf:surname>
+                        <foaf:givenName>Ben</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Walker</foaf:surname>
+                        <foaf:givenName>Steve</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1004"/>
+        <dc:title>Fitting linear mixed-effects models using lme4</dc:title>
+        <dc:date>2015</dc:date>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.jstatsoft.org/article/view/v067i01/0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 11:44:10</dcterms:dateSubmitted>
+        <bib:pages>1–48</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1004">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1004/Bates m.fl. - 2015 - Fitting linear mixed-effects models using lme4.pdf"/>
+        <dc:title>Available Version (via Google Scholar)</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.jstatsoft.org/article/view/v067i01/946</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 11:44:12</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://joss.theoj.org/papers/10.21105/joss.01686">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2475-9066"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wickham</foaf:surname>
+                        <foaf:givenName>Hadley</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Averick</foaf:surname>
+                        <foaf:givenName>Mara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bryan</foaf:surname>
+                        <foaf:givenName>Jennifer</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chang</foaf:surname>
+                        <foaf:givenName>Winston</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McGowan</foaf:surname>
+                        <foaf:givenName>Lucy D'Agostino</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>François</foaf:surname>
+                        <foaf:givenName>Romain</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grolemund</foaf:surname>
+                        <foaf:givenName>Garrett</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hayes</foaf:surname>
+                        <foaf:givenName>Alex</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Henry</foaf:surname>
+                        <foaf:givenName>Lionel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hester</foaf:surname>
+                        <foaf:givenName>Jim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kuhn</foaf:surname>
+                        <foaf:givenName>Max</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pedersen</foaf:surname>
+                        <foaf:givenName>Thomas Lin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenName>Evan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bache</foaf:surname>
+                        <foaf:givenName>Stephan Milton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Müller</foaf:surname>
+                        <foaf:givenName>Kirill</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ooms</foaf:surname>
+                        <foaf:givenName>Jeroen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Robinson</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Seidel</foaf:surname>
+                        <foaf:givenName>Dana Paige</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spinu</foaf:surname>
+                        <foaf:givenName>Vitalie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takahashi</foaf:surname>
+                        <foaf:givenName>Kohske</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vaughan</foaf:surname>
+                        <foaf:givenName>Davis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wilke</foaf:surname>
+                        <foaf:givenName>Claus</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Woo</foaf:surname>
+                        <foaf:givenName>Kara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yutani</foaf:surname>
+                        <foaf:givenName>Hiroaki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1012"/>
+        <dc:title>Welcome to the Tidyverse</dc:title>
+        <dcterms:abstract>Wickham et al., (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), 1686, https://doi.org/10.21105/joss.01686</dcterms:abstract>
+        <dc:date>2019/11/21</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>joss.theoj.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://joss.theoj.org/papers/10.21105/joss.01686</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 11:57:33</dcterms:dateSubmitted>
+        <bib:pages>1686</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2475-9066">
+        <prism:volume>4</prism:volume>
+        <dc:title>Journal of Open Source Software</dc:title>
+        <dc:identifier>DOI 10.21105/joss.01686</dc:identifier>
+        <prism:number>43</prism:number>
+        <dc:identifier>ISSN 2475-9066</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1012">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1012/Wickham m.fl. - 2019 - Welcome to the Tidyverse.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://joss.theoj.org/papers/10.21105/joss.01686.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 11:57:34</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.journals.uchicago.edu/doi/10.1086/466756">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0022-2186"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Darby</foaf:surname>
+                        <foaf:givenName>Michael R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karni</foaf:surname>
+                        <foaf:givenName>Edi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Free Competition and the Optimal Amount of Fraud</dc:title>
+        <dc:date>1973-04</dc:date>
+        <z:libraryCatalog>journals.uchicago.edu (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.journals.uchicago.edu/doi/10.1086/466756</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:15:10</dcterms:dateSubmitted>
+        <dc:description>Publisher: The University of Chicago Press</dc:description>
+        <bib:pages>67-88</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0022-2186">
+        <prism:volume>16</prism:volume>
+        <dc:title>The Journal of Law and Economics</dc:title>
+        <dc:identifier>DOI 10.1086/466756</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 0022-2186</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0306919213001796">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0306-9192"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grunert</foaf:surname>
+                        <foaf:givenName>Klaus G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hieke</foaf:surname>
+                        <foaf:givenName>Sophie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wills</foaf:surname>
+                        <foaf:givenName>Josephine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1023"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Consumer behaviour</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Food labelling</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Sustainability</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Sustainability labels on food products: Consumer motivation, understanding and use</dc:title>
+        <dcterms:abstract>This study investigates the relationship between consumer motivation, understanding and use of sustainability labels on food products (both environmental and ethical labels), which are increasingly appearing on food products. Data was collected by means of an online survey implemented in the UK, France, Germany, Spain, Sweden, and Poland, with a total sample size of 4408 respondents. Respondents expressed medium high to high levels of concern with sustainability issues at the general level, but lower levels of concern in the context of concrete food product choices. Understanding of the concept of sustainability was limited, but understanding of four selected labels (Fair Trade, Rainforest Alliance, Carbon Footprint, and Animal Welfare) was better, as some of them seem to be self-explanatory. The results indicated a low level of use, no matter whether use was measured as self-reported use of different types of information available on food labels or as use inferred from the results of a choice-based conjoint analysis. Hierarchical regression indicated that use is related to both motivation and understanding, and that both motivation, understanding and use are affected by demographic characteristics, human values as measured by the Schwartz value domains, and country differences. The results imply that sustainability labels currently do not play a major role in consumers’ food choices, and future use of these labels will depend on the extent to which consumers’ general concern about sustainability can be turned into actual behaviour.</dcterms:abstract>
+        <dc:date>2014-02-01</dc:date>
+        <z:shortTitle>Sustainability labels on food products</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0306919213001796</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:15:37</dcterms:dateSubmitted>
+        <bib:pages>177-189</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0306-9192">
+        <prism:volume>44</prism:volume>
+        <dc:title>Food Policy</dc:title>
+        <dc:identifier>DOI 10.1016/j.foodpol.2013.12.001</dc:identifier>
+        <dcterms:alternative>Food Policy</dcterms:alternative>
+        <dc:identifier>ISSN 0306-9192</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1023">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1023/S0306919213001796.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0306919213001796</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:15:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.nature.com/articles/35058500">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>Nature reviews neuroscience</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1038/35058500</dc:identifier>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Itti</foaf:surname>
+                        <foaf:givenName>Laurent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koch</foaf:surname>
+                        <foaf:givenName>Christof</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1025"/>
+        <dc:title>Computational modelling of visual attention</dc:title>
+        <dc:date>2001</dc:date>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.nature.com/articles/35058500</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:16:04</dcterms:dateSubmitted>
+        <dc:description>Publisher: Nature Publishing Group UK London</dc:description>
+        <bib:pages>194–203</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1025">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1025/Itti and Koch - 2001 - Computational modelling of visual attention.pdf"/>
+        <dc:title>Available Version (via Google Scholar)</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.nature.com/articles/35058500.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:16:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.cambridge.org/core/product/identifier/S1930297500001017/type/journal_article">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1930-2975"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schuldt</foaf:surname>
+                        <foaf:givenName>Jonathon P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schwarz</foaf:surname>
+                        <foaf:givenName>Norbert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1027"/>
+        <dc:title>The “organic” path to obesity? Organic claims influence calorie judgments and exercise recommendations</dc:title>
+        <dcterms:abstract>Labeling a food as “organic” entails a claim about its production but is silent on its calorie content. Nevertheless, people infer that organic cookies are lower in calories and can be eaten more often than conventional cookies (Study 1). These inferences are observed even when the nutrition label conveys identical calorie content and are more pronounced among perceivers high on pro-environmentalism. Moreover, when evaluating a person with a weight-loss goal, forgoing exercise is deemed more acceptable when the person has just chosen organic rather than conventional dessert (Study 2). These results reﬂect an “organic/natural”-“healthy” association that is capable of biasing everyday judgments about diet and exercise.</dcterms:abstract>
+        <dc:date>06/2010</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>The “organic” path to obesity?</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cambridge.org/core/product/identifier/S1930297500001017/type/journal_article</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:17:07</dcterms:dateSubmitted>
+        <dc:rights>https://www.cambridge.org/core/terms</dc:rights>
+        <bib:pages>144-150</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1930-2975">
+        <prism:volume>5</prism:volume>
+        <dc:title>Judgment and Decision Making</dc:title>
+        <dc:identifier>DOI 10.1017/S1930297500001017</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Judgm. decis. mak.</dcterms:alternative>
+        <dc:identifier>ISSN 1930-2975</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1027">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1027/Schuldt and Schwarz - 2010 - The “organic” path to obesity Organic claims influence calorie judgments and exercise recommendatio.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7BB75DB9B9423F00F58257348891437D/S1930297500001017a.pdf/div-class-title-the-organic-path-to-obesity-organic-claims-influence-calorie-judgments-and-exercise-recommendations-div.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:17:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-0-521-42526-1">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Cambridge University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Payne</foaf:surname>
+                        <foaf:givenName>John W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bettman</foaf:surname>
+                        <foaf:givenName>James R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnson</foaf:surname>
+                        <foaf:givenName>Eric J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1032"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Psychology / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Psychology / Cognitive Psychology &amp; Cognition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Education / Decision-Making &amp; Problem Solving</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Religion / Inspirational</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Self-Help / Motivational &amp; Inspirational</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The Adaptive Decision Maker</dc:title>
+        <dcterms:abstract>The Adaptive Decision Maker argues that people use a variety of strategies to make judgments and choices. The authors introduce a model that shows how decision makers balance effort and accuracy considerations and predicts which strategy a person will use in a given situation. A series of experiments testing the model are presented, and the authors analyse how the model can lead to improved decisions and opportunities for further research.</dcterms:abstract>
+        <dc:date>1993-05-28</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Google Books</z:libraryCatalog>
+        <dc:description>Google-Books-ID: QzXFqwrPLXkC</dc:description>
+        <dc:identifier>ISBN 978-0-521-42526-1</dc:identifier>
+        <z:numPages>352</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_1032">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Google Books Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://books.google.dk/books?id=QzXFqwrPLXkC</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:17:42</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-0-12-015211-7">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>11</prism:volume>
+                <dc:identifier>ISBN 978-0-12-015211-7</dc:identifier>
+                <dc:title>Advances in Experimental Social Psychology</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>Elsevier</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taylor</foaf:surname>
+                        <foaf:givenName>Shelley E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fiske</foaf:surname>
+                        <foaf:givenName>Susan T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1033"/>
+        <dc:title>Salience, Attention, and Attribution: Top of the Head Phenomena</dc:title>
+        <dc:date>1978</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Salience, Attention, and Attribution</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S006526010860009X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:19:03</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1016/S0065-2601(08)60009-X</dc:description>
+        <bib:pages>249-288</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_1033">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1033/Taylor and Fiske - 1978 - Salience, Attention, and Attribution Top of the Head Phenomena.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/273280/1-s2.0-S0065260108X60010/1-s2.0-S006526010860009X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD8LGCSG5gXq02V%2B4JxThoyLcCVcItQJ%2B4eL8dyxoLpqgIhAKhGIIhSn4T%2F54%2Fqocf76WHKs0lM13jR%2FtqJBuHygTMDKrsFCJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgyLQOPntysez9SlB0AqjwWzYAboTZTI65zO%2ByyHcxXoy%2Bxv5usaQTwrJj7G6NGLP%2BFpGJD%2Ffx%2FsmJ95acNM1k52HQCbA3CxlkGiUJSXSwNTthZRpC0O5bJ7ZbR5mc425nteDMmBPsL4dBoj19jLijQCB6vUX48j6QsmBuOJSN%2FiyR2IBleLoSYbksvBGYesSO%2Fm4wLAQtcAwy9WYeBJSxTL7bGyl9uTppTz1thOIBQ9gxViVCUdwuT7N1el%2BFs7jAb%2FIBa5DPgKfiSJHLmoX8eG7353scltzQSEoesJgOodAFOZS02MToVOhZSEW2kkIGSvAx8SK3eDQJLARKkU6St3Qg%2FAGbF3ZoZXodNQIZcESKDafwab4f784%2FXgqIMaeaF088jAcbw1qoTWRxmkiQym51kbCoze8Z3iwiBRjzXoI7ccFt1tvfzb0AganXSS5EkmcaeCay1dJcYMu6%2FkC9%2Fgs7jZR5MvuOvAzSY%2FSqz01NC2xZtinX5oH%2FtqKGJd6J7%2FY2ZiXyetyj9%2FFhly4E10hra77MlhrTGqCfmJO2EkPq%2FXtmFGXQfhERVGqZh5fj8tBfZEGnL0AxAPsM1wOlwppg84K0vubzdBwqrR5EIXKoJOm%2FWXXOSUDQURUBhZ%2FY7YT1hU1DJsl6BjTD24UUUUOA6GjJdferetYzo89NLXN90vLWFgHceTJdaHm81Ekb81egT89VGkCMh4xSutdwTayfxt%2BggNvDm7JPFnwcnY22nqZesSPJ54EldqQNo4vlqcMCfanu8Ih4QTnn5RC%2BdJd1zqRrePjEfGwDB7vM65MrPmB%2FySdDiPu6nXueZwgbtyRFzksy0JV7qrr7aa2yLMplcDtqe7q%2BYJYZ84eBJhtielABIHjxY0ja%2B98wYYMOjBj8oGOrABNrTqrK%2BO5TfhNV2yUFfUxdty1kB1npoK8jmhnVokJhF9xf%2F%2BxQ2JGV5OD6RpacE%2BbwQWslQFfJ9E530MogXGGAiDvSzmcBDBUDfeM0XG%2BuxKcoANySsIvS4hUPyVsDFJkSKNlzjNCFNfZJ74b4jmOtq49oN6N2aBUp78OwTsUGwEPu6kCbUwOGmT0%2BvRX%2BgfHXNs1zNt2AgEqvolFxXfbyKeOnV4lOZIU9FbWZxg1ZY%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20251218T121858Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYWABT5L2C%2F20251218%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=95fb8d96fdf165ad09192f09c7675c225c372e967adb93c144591af0364ec8a2&amp;hash=444e4eda39971c48eedc5b3414b18284d4f9ea91e64631c452b406fe2b3a6be8&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S006526010860009X&amp;tid=spdf-e51d2971-9c1b-48d1-ae18-b87a3977deed&amp;sid=23e454e9400005480308525-c27ce39e88adgxrqb&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=1e0d5f05040659045506&amp;rr=9afe9b1c58043299&amp;cc=dk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:19:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.3758/BF03211656">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1532-5962"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Theeuwes</foaf:surname>
+                        <foaf:givenName>Jan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1036"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Color Condition</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Display Size</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Distractor Condition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Green Circle</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Unique Form</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Perceptual selectivity for color and form</dc:title>
+        <dcterms:abstract>Three visual-search experiments tested whether the preattentive parallel stage can-selectively guide the attentive stage to a particular known-to-be-relevant target feature. Subjects searched multielement displays for a salient green circle that had a unique form when surrounded by green nontarget squares or had a unique color when surrounded by red nontarget circles. In the distractor conditions, a salient item in the other dimension was present as well. As an extension of earlier findings (Theeuwes, 1991), the results showed that complete top-down selectivity toward a particular feature was not possible, not even after extended and consistent practice. The results reveal that selectivity depends on the relative discriminability of the stimulus dimensions: the presence of an irrelevant item with a unique color interferes with parallel search for a unique form, and vice versa.</dcterms:abstract>
+        <dc:date>1992-11-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.3758/BF03211656</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:19:08</dcterms:dateSubmitted>
+        <bib:pages>599-606</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1532-5962">
+        <prism:volume>51</prism:volume>
+        <dc:title>Perception &amp; Psychophysics</dc:title>
+        <dc:identifier>DOI 10.3758/BF03211656</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>Perception &amp; Psychophysics</dcterms:alternative>
+        <dc:identifier>ISSN 1532-5962</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1036">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1036/Theeuwes - 1992 - Perceptual selectivity for color and form.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.3758%2FBF03211656.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:19:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1037">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1939-1854"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thorndike</foaf:surname>
+                        <foaf:givenName>E.L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1038"/>
+        <dc:title>A constant error in psychological ratings</dc:title>
+        <dc:date>1920</dc:date>
+        <z:libraryCatalog>APA PsycNet</z:libraryCatalog>
+        <dc:description>Place: US
+Publisher: American Psychological Association</dc:description>
+        <bib:pages>25-29</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1939-1854">
+        <prism:volume>4</prism:volume>
+        <dc:title>Journal of Applied Psychology</dc:title>
+        <dc:identifier>DOI 10.1037/h0071663</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 1939-1854</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1038">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1038/Thorndike - 1920 - A constant error in psychological ratings.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://psycnet.apa.org/fulltext/1920-10104-014.pdf?auth_token=eccc3c6f48ee934840cd0d06a3d7d97334ef0114&amp;returnUrl=https%3A%2F%2Fpsycnet.apa.org%2Frecord%2F1920-10104-014%3Fdoi%3D1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-18 12:19:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.annualreviews.org/doi/10.1146/annurev-psych-120709-145346">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0066-4308,%201545-2085"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gigerenzer</foaf:surname>
+                        <foaf:givenName>Gerd</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gaissmaier</foaf:surname>
+                        <foaf:givenName>Wolfgang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1039"/>
+        <dc:title>Heuristic Decision Making</dc:title>
+        <dcterms:abstract>As reﬂected in the amount of controversy, few areas in psychology have undergone such dramatic conceptual changes in the past decade as the emerging science of heuristics. Heuristics are efﬁcient cognitive processes, conscious or unconscious, that ignore part of the information. Because using heuristics saves effort, the classical view has been that heuristic decisions imply greater errors than do “rational” decisions as deﬁned by logic or statistical models. However, for many decisions, the assumptions of rational models are not met, and it is an empirical rather than an a priori issue how well cognitive heuristics function in an uncertain world. To answer both the descriptive question (“Which heuristics do people use in which situations?”) and the prescriptive question (“When should people rely on a given heuristic rather than a complex strategy to make better judgments?”), formal models are indispensable. We review research that tests formal models of heuristic inference, including in business organizations, health care, and legal institutions. This research indicates that (a) individuals and organizations often rely on simple heuristics in an adaptive way, and (b) ignoring part of the information can lead to more accurate judgments than weighting and adding all information, for instance for low predictability and small samples. The big future challenge is to develop a systematic theory of the building blocks of heuristics as well as the core capacities and environmental structures these exploit.</dcterms:abstract>
+        <dc:date>2011-01-10</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.annualreviews.org/doi/10.1146/annurev-psych-120709-145346</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 13:41:39</dcterms:dateSubmitted>
+        <bib:pages>451-482</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0066-4308,%201545-2085">
+        <prism:volume>62</prism:volume>
+        <dc:title>Annual Review of Psychology</dc:title>
+        <dc:identifier>DOI 10.1146/annurev-psych-120709-145346</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Annu. Rev. Psychol.</dcterms:alternative>
+        <dc:identifier>ISSN 0066-4308, 1545-2085</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1039">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1039/content.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pure.mpg.de/rest/items/item_2099042_4/component/file_2099041/content</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 13:41:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-0-395-61556-0">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Experimental and quasi-experimental designs for generalized causal inference</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Boston, MA, US</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Houghton, Mifflin and Company</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shadish</foaf:surname>
+                        <foaf:givenName>William R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cook</foaf:surname>
+                        <foaf:givenName>Thomas D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Campbell</foaf:surname>
+                        <foaf:givenName>Donald T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Causal Analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Experimental Design</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Experimental Methods</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Quasi Experimental Methods</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Experimental and quasi-experimental designs for generalized causal inference</dc:title>
+        <dcterms:abstract>This is a book for those who have already decided that identifying a dependable relationship between a cause and its effects is a high priority and who wish to consider experimental methods for doing so. Such causal relationships are of great importance in human affairs. The rewards associated with being correct in identifying causal relationships can be high, an the costs of misidentification can be tremendous. This book has two major purposes: to describe ways in which testing causal propositions can be improved in specific research projects, and to describe ways to improve generalizations about causal propositions. (PsycINFO Database Record (c) 2016 APA, all rights reserved)</dcterms:abstract>
+        <dc:date>2002</dc:date>
+        <z:libraryCatalog>APA PsycNet</z:libraryCatalog>
+        <dc:description>Pages: xxi, 623</dc:description>
+        <dc:identifier>ISBN 978-0-395-61556-0</dc:identifier>
+        <z:numPages>xxi, 623</z:numPages>
+    </bib:Book>
+    <bib:Article rdf:about="https://joss.theoj.org/papers/10.21105/joss.03139">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>6</prism:volume>
+                <dc:title>Journal of Open Source Software</dc:title>
+                <dc:identifier>DOI 10.21105/joss.03139</dc:identifier>
+                <prism:number>60</prism:number>
+                <dc:identifier>ISSN 2475-9066</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lüdecke</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ben-Shachar</foaf:surname>
+                        <foaf:givenName>Mattan S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Patil</foaf:surname>
+                        <foaf:givenName>Indrajeet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Waggoner</foaf:surname>
+                        <foaf:givenName>Philip</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Makowski</foaf:surname>
+                        <foaf:givenName>Dominique</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1045"/>
+        <dc:title>performance: An R Package for Assessment, Comparison and Testing of Statistical Models</dc:title>
+        <dcterms:abstract>Lüdecke et al., (2021). performance: An R Package for Assessment, Comparison and Testing of Statistical Models. Journal of Open Source Software, 6(60), 3139, https://doi.org/10.21105/joss.03139</dcterms:abstract>
+        <dc:date>2021/04/21</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>performance</z:shortTitle>
+        <z:libraryCatalog>joss.theoj.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://joss.theoj.org/papers/10.21105/joss.03139</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 13:52:46</dcterms:dateSubmitted>
+        <bib:pages>3139</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1045">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1045/Lüdecke m.fl. - 2021 - performance An R Package for Assessment, Comparison and Testing of Statistical Models.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://joss.theoj.org/papers/10.21105/joss.03139.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 13:52:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://world.openfoodfacts.org/data">
+        <z:itemType>dataset</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Open Food Facts contributors</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:edition>2025-11-23</prism:edition>
+        <dc:title>Open Food Facts product database (data export / product dump)</dc:title>
+        <dc:date>2025-11-23</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://world.openfoodfacts.org/data</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </rdf:Description>
+    <bib:Article rdf:about="https://CRAN.R-project.org/package=emmeans">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.32614/CRAN.package.emmeans</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lenth</foaf:surname>
+                        <foaf:givenName>Russell V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Piaskowski</foaf:surname>
+                        <foaf:givenName>Julia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1047"/>
+        <dc:title>emmeans: Estimated Marginal Means, aka Least-Squares Means</dc:title>
+        <dcterms:abstract>Obtain estimated marginal means (EMMs) for many linear, generalized  linear, and mixed models. Compute contrasts or linear functions of EMMs, trends, and comparisons of slopes. Plots and other displays. Least-squares means are discussed, and the term &quot;estimated marginal means&quot; is suggested, in Searle, Speed, and Milliken (1980) Population marginal means  in the linear model: An alternative to least squares means, The American  Statistician 34(4), 216-221 &lt;doi:10.1080/00031305.1980.10483031&gt;.</dcterms:abstract>
+        <dc:date>2025-12-10</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>emmeans</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://CRAN.R-project.org/package=emmeans</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 14:11:54</dcterms:dateSubmitted>
+        <dc:description>Institution: Comprehensive R Archive Network
+Pages: 2.0.1</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1047">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1047/Lenth and Piaskowski - 2017 - emmeans Estimated Marginal Means, aka Least-Squares Means.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cran.r-project.org/web/packages/emmeans/emmeans.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 14:11:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-0-521-79679-8">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-0-521-79679-8</dc:identifier>
+                <dc:title>Heuristics and Biases: The Psychology of Intuitive Judgment</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Cambridge University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kahneman</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Frederick</foaf:surname>
+                        <foaf:givenName>Shane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gilovich</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Griffin</foaf:surname>
+                        <foaf:givenName>Dale</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kahneman</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_1053"/>
+        <dc:title>Representativeness revisited: Attribute substitution in intuitive judgment</dc:title>
+        <dc:date>2002-07-08</dc:date>
+        <z:language>en</z:language>
+        <bib:pages>49-81</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_1053">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1053/Kahneman and Frederick - Representativeness revisited Attribute substitution in intuitive judgment.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.science.org/doi/abs/10.1126/science.7455683">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>211</prism:volume>
+                <dc:title>Science</dc:title>
+                <dc:identifier>DOI 10.1126/science.7455683</dc:identifier>
+                <prism:number>4481</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tversky</foaf:surname>
+                        <foaf:givenName>Amos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kahneman</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1057"/>
+        <dc:title>The Framing of Decisions and the Psychology of Choice</dc:title>
+        <dcterms:abstract>The psychological principles that govern the perception of decision problems and the evaluation of probabilities and outcomes produce predictable shifts of preference when the same problem is framed in different ways. Reversals of preference are demonstrated in choices regarding monetary outcomes, both hypothetical and real, and in questions pertaining to the loss of human lives. The effects of frames on preferences are compared to the effects of perspectives on perceptual appearance. The dependence of preferences on the formulation of decision problems is a significant concern for the theory of rational choice.</dcterms:abstract>
+        <dc:date>1981-01-30</dc:date>
+        <z:libraryCatalog>science.org (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.science.org/doi/abs/10.1126/science.7455683</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 14:36:58</dcterms:dateSubmitted>
+        <dc:description>Publisher: American Association for the Advancement of Science</dc:description>
+        <bib:pages>453-458</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1057">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1057/Tversky and Kahneman - 1981 - The Framing of Decisions and the Psychology of Choice.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Data rdf:about="http://www.python.org">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Python Software Foundation</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <prism:edition>3.12.10</prism:edition>
+        <dc:title>Python</dc:title>
+        <dc:date>2025</dc:date>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.python.org</rdf:value></dcterms:URI>
+        </dc:identifier>
+    </bib:Data>
+    <bib:Data rdf:about="#item_1060">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Python Software Foundation</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <prism:edition>3.7.6</prism:edition>
+        <dc:title>Python</dc:title>
+        <dc:date>2019</dc:date>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.python.org</rdf:value></dcterms:URI>
+        </dc:identifier>
+    </bib:Data>
+    <bib:Article rdf:about="https://doi.org/10.1007/978-3-319-24277-4_9">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>ggplot2: Elegant Graphics for Data Analysis</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wickham</foaf:surname>
+                        <foaf:givenName>Hadley</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1062"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Data Analysis Process</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data Frame</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Easy Part</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Person Time</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Regular Expression</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Data Analysis</dc:title>
+        <dcterms:abstract>So far, every example in this book has started with a nice dataset that’s easy to plot. That’s great for learning (because you don’t want to struggle with data handling while you’re learning visualisation), but in real life, datasets hardly ever come in exactly the right structure. To use ggplot2 in practice, you’ll need to learn some data wrangling skills. Indeed, in my experience, visualisation is often the easiest part of the data analysis process: once you have the right data, in the right format, aggregated in the right way, the right visualisation is often obvious.</dcterms:abstract>
+        <dc:date>2016</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/978-3-319-24277-4_9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 14:53:30</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1007/978-3-319-24277-4_9</dc:description>
+        <bib:pages>189-201</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1062">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1062/Wickham - 2016 - Data Analysis.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2F978-3-319-24277-4_9.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 14:53:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.nature.com/articles/s41586-020-2649-2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1476-4687"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Harris</foaf:surname>
+                        <foaf:givenName>Charles R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Millman</foaf:surname>
+                        <foaf:givenName>K. Jarrod</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van der Walt</foaf:surname>
+                        <foaf:givenName>Stéfan J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gommers</foaf:surname>
+                        <foaf:givenName>Ralf</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Virtanen</foaf:surname>
+                        <foaf:givenName>Pauli</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cournapeau</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wieser</foaf:surname>
+                        <foaf:givenName>Eric</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taylor</foaf:surname>
+                        <foaf:givenName>Julian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Berg</foaf:surname>
+                        <foaf:givenName>Sebastian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>Nathaniel J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kern</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Picus</foaf:surname>
+                        <foaf:givenName>Matti</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hoyer</foaf:surname>
+                        <foaf:givenName>Stephan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Kerkwijk</foaf:surname>
+                        <foaf:givenName>Marten H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brett</foaf:surname>
+                        <foaf:givenName>Matthew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haldane</foaf:surname>
+                        <foaf:givenName>Allan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>del Río</foaf:surname>
+                        <foaf:givenName>Jaime Fernández</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wiebe</foaf:surname>
+                        <foaf:givenName>Mark</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peterson</foaf:surname>
+                        <foaf:givenName>Pearu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gérard-Marchant</foaf:surname>
+                        <foaf:givenName>Pierre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sheppard</foaf:surname>
+                        <foaf:givenName>Kevin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reddy</foaf:surname>
+                        <foaf:givenName>Tyler</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weckesser</foaf:surname>
+                        <foaf:givenName>Warren</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abbasi</foaf:surname>
+                        <foaf:givenName>Hameer</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gohlke</foaf:surname>
+                        <foaf:givenName>Christoph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oliphant</foaf:surname>
+                        <foaf:givenName>Travis E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1064"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Software</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational science</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational neuroscience</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer science</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Solar physics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Array programming with NumPy</dc:title>
+        <dcterms:abstract>Array programming provides a powerful, compact and expressive syntax for accessing, manipulating and operating on data in vectors, matrices and higher-dimensional arrays. NumPy is the primary array programming library for the Python language. It has an essential role in research analysis pipelines in fields as diverse as physics, chemistry, astronomy, geoscience, biology, psychology, materials science, engineering, finance and economics. For example, in astronomy, NumPy was an important part of the software stack used in the discovery of gravitational waves1 and in the first imaging of a black hole2. Here we review how a few fundamental array concepts lead to a simple and powerful programming paradigm for organizing, exploring and analysing scientific data. NumPy is the foundation upon which the scientific Python ecosystem is constructed. It is so pervasive that several projects, targeting audiences with specialized needs, have developed their own NumPy-like interfaces and array objects. Owing to its central position in the ecosystem, NumPy increasingly acts as an interoperability layer between such array computation libraries and, together with its application programming interface (API), provides a flexible framework to support the next decade of scientific and industrial analysis.</dcterms:abstract>
+        <dc:date>2020-09</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>www.nature.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41586-020-2649-2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 14:58:01</dcterms:dateSubmitted>
+        <dc:rights>2020 The Author(s)</dc:rights>
+        <dc:description>Publisher: Nature Publishing Group</dc:description>
+        <bib:pages>357-362</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1476-4687">
+        <prism:volume>585</prism:volume>
+        <dc:title>Nature</dc:title>
+        <dc:identifier>DOI 10.1038/s41586-020-2649-2</dc:identifier>
+        <prism:number>7825</prism:number>
+        <dc:identifier>ISSN 1476-4687</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1064">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1064/Harris m.fl. - 2020 - Array programming with NumPy.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41586-020-2649-2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 14:58:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="https://doi.org/10.25080/Majora-92bf1922-00a">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Proceedings of the 9th Python in Science Conference (SciPy 2010)</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McKinney</foaf:surname>
+                        <foaf:givenName>Wes</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van der Walt</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Millman</foaf:surname>
+                        <foaf:givenName>Jarrod</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1068"/>
+        <dc:title>Data Structures for Statistical Computing in Python</dc:title>
+        <dcterms:abstract>In this paper we are concerned with the practical issues of working with data sets common to finance, statistics, and other related fields. pandas is a new library which aims to facilitate working with these data sets and to provide a set of fundamental building blocks for implementing statistical models.</dcterms:abstract>
+        <dc:date>2010/5/1</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>proceedings.scipy.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.25080/Majora-92bf1922-00a</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 15:01:47</dcterms:dateSubmitted>
+        <bib:pages>56-61</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_1068">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1068/McKinney - 2010 - Data Structures for Statistical Computing in Python.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://proceedings.scipy.org/articles/Majora-92bf1922-00a.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-04 15:01:48</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="#item_1069">
+       <z:itemType>hearing</z:itemType>
+    </bib:Report>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0959652620301700">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0959-6526"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ketelsen</foaf:surname>
+                        <foaf:givenName>Meike</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Janssen</foaf:surname>
+                        <foaf:givenName>Meike</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hamm</foaf:surname>
+                        <foaf:givenName>Ulrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1074"/>
+        <link:link rdf:resource="#item_1073"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Consumer</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Environmentally-friendly</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Food</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Green</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Packaging</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Sustainable</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Consumers’ response to environmentally-friendly food packaging - A systematic review</dc:title>
+        <dcterms:abstract>Consumers play an important role in the market penetration of environmentally-friendly food packaging because it is they who decide whether or not to buy a particular product. The objective of this paper is to analyse the state of the art regarding consumers’ response to environmentally-friendly food packaging in order to identify existing barriers to purchase and potential measures to overcome these barriers. The paper is based on a systematic synthesis of 46 scientific journal articles on consumer studies related to environmentally-friendly packaging. The literature review applies a conceptual framework regarding the ways consumers respond to product stimuli and the psychological processes involved. Three important barriers to purchasing environmentally-friendly packaging are identified. First, consumers need guidance in recognizing environmentally-friendly packaging; for while consumers primarily consider the packaging material itself and any eco-labels, they also consider other packaging design elements such as colours and pictures of ‘nature’ that can be misleading. Second, it became obvious that consumers lack knowledge, in particular about new packaging materials like bio-based packaging. Third, many of the studies reviewed provide evidence that other product attributes such as price and product quality are more important to consumers than environmentally-friendly packaging. Nevertheless, some studies recorded a significantly higher willingness on the part of consumers to buy and pay for environmentally-friendly packaging and products with reduced packaging compared to products with standard packaging, signalling an overall positive attitude. The literature review revealed many research gaps. For example, it became obvious that consumers’ response to environmentally-friendly food packaging is not yet well understood, in particular with regards to purchasing behaviour (in the real world as opposed to in a survey setting) and measures for overcoming existing barriers.</dcterms:abstract>
+        <dc:date>2020-05-01</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0959652620301700</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:05:09</dcterms:dateSubmitted>
+        <bib:pages>120123</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0959-6526">
+        <prism:volume>254</prism:volume>
+        <dc:title>Journal of Cleaner Production</dc:title>
+        <dc:identifier>DOI 10.1016/j.jclepro.2020.120123</dc:identifier>
+        <dcterms:alternative>Journal of Cleaner Production</dcterms:alternative>
+        <dc:identifier>ISSN 0959-6526</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1074">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1074/Ketelsen et al. - 2020 - Consumers’ response to environmentally-friendly food packaging - A systematic review.pdf"/>
+        <dc:title>ScienceDirect Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/271750/1-s2.0-S0959652620X00059/1-s2.0-S0959652620301700/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLWVhc3QtMSJHMEUCIQD8o9Uxw%2FpbwoIVyVTh0kaDdAaUtRDOcQ8WKWmyYnOPjwIgDHsvwnL8vgohSNLBmuOnMGx3KI3hCas4uEQc9zw3zgkqswUIBRAFGgwwNTkwMDM1NDY4NjUiDH0QEd6Zg%2B95fS5s0yqQBQ34bFBrwC8aIZDFHXJ3DL6BpubCfWWipQoXSpQxWLBInXtOBcW671Qq2vg9yOmddwfK3DeIdUT3NtviHaj%2Fq43ifz0x2bu2z0ZKmEPFBeo9KbmX9sVrq0MeHoSUUYpmtOKig1VjTvmV9Ma7TL6bayBECgx%2Bc%2F5tG9j5z7A2%2FAA50aSyyeTHHTep%2F%2FuR1DZX343rx3jTlUDx%2FGa7UKsw%2FzqTrQnJOn9yx8hSK8CvvSuQKxXqVUNJoAK%2FfgBRa6B54y1aZMqUpA%2FVSUKMmrZVZEXXXnP1nE12FCsf5BYTOCTJzPqGwWvMWNInewjpqvInv9%2FpB%2FrJSiZUBOglvs3YP7J7ox%2F%2Bs%2BKpYZ6N8G4wSw5BNGFL7xpDbg2tboOSkWjup03pkCZUYfGQRogDq6ybL5BiBQ2P4uEq2skibh2NZ2AxfYM6Li7nAw8BXqART%2Fa3s%2F%2BVN4Jjhil%2FJ8P1b%2B4aFaGcV8ah2BVnA5MxE%2FR2UonJTtSuSpAcwQRIgsq8%2BqLtKFpJ8p1I3mIBDJjEX4yUVnoraXituzzehyFEpuvuMus2qEYBhzj3TCBZbQPoY6KqBk6mDkv%2F1jiOF5d9GrZa1JR%2Fy%2F8cih2oB0eCRU216BPEr09seEMKFM7Oir1bzytx4qlD%2FqzVUDMQk3X2nnmz%2FPRi3bCuDInn9wYjfQw7Q6pu%2F77Xz3lbM9zStMGf6nd98PKLgpLhSekVIVPBhkkW9KKk0UrogaUPEvbtm1CTBeLAOP%2B7PWiP%2BX2E59Mq3gXgXIwBf7IrXzs1GSVxqBNAAnxjntYV6NUPFZOPrPPmYwIO7wjHD5WlqBssHkYJBVD5%2BzjAhKbxRcl7fjLP8lyoU4NAXxWquB4nSGdwrs2OM8ovMKLimMsGOrEBeHmmo3%2FfMI9Tdmw4efFvGCvUzJgbQd8sP95lDIxr90qRkcBpvtWGrcXibrIOXtV9ZF9nJj5zOXlRMlJ3X%2F%2Bht1atA1QAorDHcQHvUtnNaV%2B3KxrZcoYokwfmuJXwD93%2BFiB4LpqH6jx%2BSDVX6qkPiqPt5vxR4%2F9pl49s4RWw%2BL2v4%2FHrQJ8rlbVxMUGAytApf3Lep0FsNU4qFWjtieHTvXfQqLH4P5yu2ST4UnBJMUqV&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20260113T120515Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYVPWQOEWI%2F20260113%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=8f54cbeccb8f06fc6761066841c70316bf5074fa4fb18fb7d662392dae043547&amp;hash=4d203264acba2079e7e8bb54139e2b4d09a49ed44a463c8d8cbd33b134a6fb09&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0959652620301700&amp;tid=spdf-68e3e981-29d1-4209-8cb4-a6cbcad6ac81&amp;sid=b5d44dae5b5dd042f699adc1f19f6580681bgxrqb&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=0a0b560500540c54&amp;rr=9bd4c2c2ac780db5&amp;cc=dk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:05:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1073">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1073/S0959652620301700.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0959652620301700</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:05:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://pmc.ncbi.nlm.nih.gov/articles/PMC8621627/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2304-8158"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lanero</foaf:surname>
+                        <foaf:givenName>Ana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vázquez</foaf:surname>
+                        <foaf:givenName>José-Luis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sahelices-Pinto</foaf:surname>
+                        <foaf:givenName>César</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1076"/>
+        <link:link rdf:resource="#item_1077"/>
+        <dc:title>Halo Effect and Source Credibility in the Evaluation of Food Products Identified by Third-Party Certified Eco-Labels: Can Information Prevent Biased Inferences?</dc:title>
+        <dcterms:abstract>Despite the growing awareness of the need to promote the consumption of organic food, consumers have difficulties in correctly identifying it in the market, making frequent cognitive mistakes in the evaluation of products identified by sustainability labels and claims. This work analyzes the halo effect and the source credibility bias in the interpretation of product attributes based on third-party certified labels. It is hypothesized that, regardless of their specific meaning, official labels lead consumers to infer higher environmental sustainability, quality and price of the product, due to the credibility attributed to the certifying entity. It also examines the extent to which providing the consumer with accurate labeling information helps prevent biased heuristic thinking. An experimental between-subject study was performed with a sample of 412 Spanish business students and data were analyzed using partial least squares. Findings revealed that consumers tend to infer environmental superiority and, consequently, higher quality in products identified by both organic and non-organic certified labels, due to their credibility. Label credibility was also associated with price inferences, to a greater extent than the meaning attributed to the label. Interestingly, providing accurate information did not avoid biased heuristic thinking in product evaluation.</dcterms:abstract>
+        <dc:date>2021-10-20</dc:date>
+        <z:shortTitle>Halo Effect and Source Credibility in the Evaluation of Food Products Identified by Third-Party Certified Eco-Labels</z:shortTitle>
+        <z:libraryCatalog>PubMed Central</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pmc.ncbi.nlm.nih.gov/articles/PMC8621627/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:06:27</dcterms:dateSubmitted>
+        <dc:description>PMID: 34828793
+PMCID: PMC8621627</dc:description>
+        <bib:pages>2512</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2304-8158">
+        <prism:volume>10</prism:volume>
+        <dc:title>Foods</dc:title>
+        <dc:identifier>DOI 10.3390/foods10112512</dc:identifier>
+        <prism:number>11</prism:number>
+        <dcterms:alternative>Foods</dcterms:alternative>
+        <dc:identifier>ISSN 2304-8158</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1076">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Catalog Page</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pmc.ncbi.nlm.nih.gov/articles/PMC8621627/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:06:27</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1077">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1077/Lanero et al. - 2021 - Halo Effect and Source Credibility in the Evaluation of Food Products Identified by Third-Party Cert.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pmc.ncbi.nlm.nih.gov/articles/PMC8621627/pdf/foods-10-02512.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:06:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://jums.ub.uni-muenchen.de/JMS/article/view/5045">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Junior Management Science</dc:title>
+                <dc:identifier>DOI 10.5282/JUMS/V4I2PP241-264</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Küst</foaf:surname>
+                        <foaf:givenName>Philipp</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1080"/>
+        <link:link rdf:resource="#item_1078"/>
+        <dc:title>The Impact of the Organic Label Halo Effect on Consumers’ Quality Perceptions, Value-in-Use and Well-Being</dc:title>
+        <dcterms:abstract>Food well-being is an innovative ﬁeld of research analysing the complex consequences of food intake on body and mind. In face of mounting civilization diseases and environmental challenges promoting healthy and sustainable diets is crucial. For consumers it is difﬁcult however, to assess the healthiness and environmental friendliness of a product. Food labels, like the organic one, are therefore used as extrinsic cues to help customers distinguish between alternatives.</dcterms:abstract>
+        <dc:date>2019-06-21</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Datacite)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jums.ub.uni-muenchen.de/JMS/article/view/5045</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:06:51</dcterms:dateSubmitted>
+        <dc:rights>Dieses Werk steht unter der Lizenz Creative Commons Namensnennung 4.0 International.</dc:rights>
+        <dc:description>Artwork Size: 241-264 Seiten
+Publisher: Junior Management Science</dc:description>
+        <bib:pages>241-264 Seiten</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1080">
+        <rdf:value>&lt;h2&gt;SeriesInformation&lt;/h2&gt;
+Junior Management Science, Bd. 4 Nr. 2 (2019)</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1078">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1078/Küst - 2019 - The Impact of the Organic Label Halo Effect on Consumers’ Quality Perceptions, Value-in-Use and Well.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.econstor.eu/bitstream/10419/294906/1/5045-3233.pdf?utm_source=chatgpt.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:06:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0950329315000312">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0950-3293"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sörqvist</foaf:surname>
+                        <foaf:givenName>Patrik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haga</foaf:surname>
+                        <foaf:givenName>Andreas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langeborg</foaf:surname>
+                        <foaf:givenName>Linda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holmgren</foaf:surname>
+                        <foaf:givenName>Mattias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wallinder</foaf:surname>
+                        <foaf:givenName>Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nöstl</foaf:surname>
+                        <foaf:givenName>Anatole</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Seager</foaf:surname>
+                        <foaf:givenName>Paul B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marsh</foaf:surname>
+                        <foaf:givenName>John E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1083"/>
+        <link:link rdf:resource="#item_1082"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Eco-friendly</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Eco-label effect</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Organic</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pro-environmental consumer behavior</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Schizotypy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Social desirability</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The green halo: Mechanisms and limits of the eco-label effect</dc:title>
+        <dcterms:abstract>Consumers believe that “eco-labeled” products taste better, which, at least in part, may be an effect of the label. The purpose of the current series of experiments was to examine some mechanisms and limits of this eco-label effect. In Experiment 1, an eco-label effect of similar magnitude was found for taste ratings of both conventional and organic bananas. Experiment 2 showed eco-label effects for a wider range of judgmental dimensions (i.e., health, calories, vitamins/minerals, mental performance, and willingness to pay) and the effect was about the same in magnitude for judgments of grapes and raisins. Experiment 3, with water as the tasted product, found no eco-label effect on judgments of taste, calories and vitamins/minerals, but an effect on willingness to pay, judgments of health benefits and judgments of mental performance benefits. Experiments 2 and 3 also included questionnaires on social desirability traits, schizotypal traits and pro-environmental consumer traits. The last was the strongest predictor of the eco-label effect amongst the three. In all, the eco-label effect is a robust phenomenon, but depends on interactions between product type and judgmental dimension. Implications for several accounts of the effect are discussed.</dcterms:abstract>
+        <dc:date>2015-07-01</dc:date>
+        <z:shortTitle>The green halo</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0950329315000312</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:07:48</dcterms:dateSubmitted>
+        <bib:pages>1-9</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0950-3293">
+        <prism:volume>43</prism:volume>
+        <dc:title>Food Quality and Preference</dc:title>
+        <dc:identifier>DOI 10.1016/j.foodqual.2015.02.001</dc:identifier>
+        <dcterms:alternative>Food Quality and Preference</dcterms:alternative>
+        <dc:identifier>ISSN 0950-3293</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1083">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1083/Sörqvist et al. - 2015 - The green halo Mechanisms and limits of the eco-label effect.pdf"/>
+        <dc:title>ScienceDirect Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/271256/1-s2.0-S0950329315X00036/1-s2.0-S0950329315000312/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLWVhc3QtMSJGMEQCIAoSaqc1C00zmbbCj5DLB91Q2se%2BGJXUZFYfJ9ua%2FWcHAiBkzMGJ%2BYTv07mCTzEuts38tjogfgrNDjf5ErFNZC7U3SqyBQgFEAUaDDA1OTAwMzU0Njg2NSIM6uyP7PsMSfrakY5RKo8Fwq%2FDp3BMpDPvsGyQmAths1Dpj%2Fpc1tJdY0BHV1hxcP8xycmNbGQ8p8kwbuQP%2FKE1jRBLeU2kvTac2rJVDcy2QQXM1eUiUqZGTGnN940qeUmb4QihlHGkSG2l1Z54cZy7marfvpT9R8uDLZPN4O%2BQ4AxXMz26HD2g5nhGR9KI8rKjHs%2Fmk%2Fn%2FYe7rWh8kSn5ALB%2BmKKwzhg4HLElTucwA0Ic9rUSoGub%2Fh3TWkLGLm4hjoibOfuYS7XXf0EwMzTmwzwq4WkGRTd6OgyI2QPCT83R6iGFp8P6etm9NTcd8SsJW72SgQ1baDAdfjyNJJkRQAq8MJNv3TlWpP%2BEFMvrcfajn040G4l4dzjGrMm0r00yV6%2FDgi%2BFbt2Lvy9CuMVvBGLK%2FFQUq4I3G9rbU%2BQpFTD8vUBCZdi2h9Hvl%2FpOAmBqOaojCUinEPdxteIEWXmedZKXvFV7Vae7Wgf%2Bg9aA30nZLl3SSNfMXsCkUsk0Fo7UGqDSPX%2BA1Kmj5U1dtlnCwpQSp%2B1lYtaZJuYQ7MnYGZYqgElbBG1A0kuO%2FLIHLKUB8xErPc3XXwFJalogvkBeg6wPikVKRpL6OiSArVroksw0315PdA729TWR8nQLNIomHRlWcy%2F%2Fz8pvbBE%2F3%2BCCDQxPYGPpEWb9Nu3jv6HQUDVym1uhpDLrAJaAIvF84YcNY5WARpoc2E3cZM7V0s15J%2FJS6YcZNnaA21NALbeJXndXVdGQPLoiRmObdXFQxss5vrx0St1pMO%2BA8Tvq9JY5UmPrjN%2BOIjo9TPZ0Mw3khCwFFNoY131nokoyPYk%2BPl%2FtAb8Eiwv%2Bn2jv5JgDcswEA8Dt%2Bx7cMesW7%2F47l%2BrlgfVGKmLzLm2%2BQyan40S7EBzDv2pjLBjqyAXyIb6Ov2KadSuslyls2ncG%2B66d2d8VcKpb8jOI8DJrtvjl0%2FBM2dEu9JAkRg%2FS1IzgSygUhmQwKgsP4Mh86ExivyPzo58RaIfAXwzxba7JOacAhO0Xc1vl6DjWgZ%2BRLogao9K2KhHfVFN3e5OBKBYK%2F1KcvYL8dqcKhk6viBKAVVELQJ6dh4rgyH%2BysG0%2Ba%2F%2FulFXr3KiF6YZI%2Faaqkxtg%2BCgzFEtkUG%2BZxCgubsTU8X2o%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20260113T120754Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYVPGDWWWI%2F20260113%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=79ffb04c2632e9c79b6f98d93de454b003afd3f5b090a1874c904e7324ecdb47&amp;hash=e05f8a3c1502280fc0ed1344dd01e6981c8453310b945b2bbcdfd82b5070a122&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0950329315000312&amp;tid=spdf-723a0998-9d65-439b-95d3-6b8011a68e31&amp;sid=b5d44dae5b5dd042f699adc1f19f6580681bgxrqb&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=0a0b560500540c50&amp;rr=9bd4c6a3db8b0db5&amp;cc=dk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:07:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1082">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1082/S0950329315000312.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0950329315000312</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:07:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0969698913000040">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0969-6989"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clement</foaf:surname>
+                        <foaf:givenName>Jesper</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kristensen</foaf:surname>
+                        <foaf:givenName>Tore</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grønhaug</foaf:surname>
+                        <foaf:givenName>Kjell</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1088"/>
+        <link:link rdf:resource="#item_1087"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Decision making</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Design features</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Eye-tracking</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>In-store</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Visual attention</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Understanding consumers' in-store visual perception: The influence of package design features on visual attention</dc:title>
+        <dcterms:abstract>It is widely accepted that the human brain has limited capacity for perceptual stimuli and consumers' visual attention, when searching for a particular product or brand in a grocery store, should then be limited by the boundaries of their own perceptual capacity. In this exploratory study, we examine the relationship between abundant in-store stimuli and limited human perceptual capacity. Specifically, we test the influence of package design features on visual attention. Data was collected through two eye-tracking experiments, one in a grocery store using wireless eye-tracking equipment, and another in a lab setting. Findings show that consumers have fragmented visual attention during grocery shopping, and that their visual attention is simultaneously influenced and disrupted by the shelf display. Physical design features such as shape and contrast dominate the initial phase of searching. Time pressure and familiarity with the grocery store are studied and discussed.</dcterms:abstract>
+        <dc:date>2013-03-01</dc:date>
+        <z:shortTitle>Understanding consumers' in-store visual perception</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0969698913000040</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:10:00</dcterms:dateSubmitted>
+        <bib:pages>234-239</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0969-6989">
+        <prism:volume>20</prism:volume>
+        <dc:title>Journal of Retailing and Consumer Services</dc:title>
+        <dc:identifier>DOI 10.1016/j.jretconser.2013.01.003</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Journal of Retailing and Consumer Services</dcterms:alternative>
+        <dc:identifier>ISSN 0969-6989</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1088">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1088/Clement et al. - 2013 - Understanding consumers' in-store visual perception The influence of package design features on vis.pdf"/>
+        <dc:title>ScienceDirect Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/271706/1-s2.0-S0969698913X00025/1-s2.0-S0969698913000040/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDsaCXVzLWVhc3QtMSJIMEYCIQDKH6Q7eIwx3l3l9tFz0RrootbIBwgpbc2yXIKjB6Ln%2FgIhAOLXX83OFliVfJ4Ao%2FxHP70ADlUQMo6oDgQou8xG5E8EKrMFCAQQBRoMMDU5MDAzNTQ2ODY1IgyfIVOlXKQPyFGVYyUqkAUp6MebvHPUWJM2ES1CyApKEwwVich6k0acUCxzsYVhD%2FX5a4s3dVrq9xqeHkf6Q8hsgw%2Fe8%2F2l6%2B1wk7sv%2BNw%2BWh5OZbPWFGXyfHdV83ualzOY%2BkknQEmkVrmq1GLKiJf7UiA0pWrtdIfndDCIGCFtOvyIlJa%2FGG%2B4%2F%2Fr0817Z7N3SKLL0Wd1tquNjXeRZlBtul%2FYx9Pk4coNUfKkGMG5pqNNYYU08HZvk54IWlEBiRM9gRMofgPndczWrSRKbksbAvbhBGuIzHDZLF1Y%2BLlmyElcwMIp%2BKyCy2T6dAqH7Ex9nC0VFoWrmyt55HGEu%2BFydkuOpIzu24mz3cohHJGSA0JBQS4EMviWz54NMugSDZaboRUqwKqyA%2B1rn7w206gPxRh%2F03xRhnQ1WveuvmrirY31eoRUmbxXF9Xv1tD%2B0wLH8cBXXqk4uWxwm2fWUUk2s7G%2BhgHrc%2FwX7iVoyF1l6fCR%2BtciPRR%2Fwn2Pa2rwx91b2pH6c1rof8ySZVuIk54JCyMnRm5n4tHkHe6OxnAWhduln4FxHas2QZM4Gp8H94qOrLDwPkYEVWrHCUP%2Bvj%2F1CXN4E80eY9D6O%2BZPUxvQdnVlEU%2BhjJ66cKnkX8kImmpmpV8JsTaxHMraY3NjeshkLh4vcSNGe3qLsxG0kGVN%2FVp5ij9ERAGn9wCmD54IuTi9TCxQ%2BSpDJhrKl7FxyUOKvWXFX7gLR9YjPViHS1kdzMCrEacN2VgU08GlHIPfuDBymHKm1aRuenCUUqUkbUWW7Kr5lNkd6IUg8kGAp%2BtWlOqwlpjb1V2R14uKbmNWFORAazEMtgvLm7Gv%2F7VE960WMPTgxYZ6G2cx%2BLPbc85JjbdDWutKldAeW%2Fnso9YqBRzDmxpjLBjqwAfqlmm9PbghxVUhCIzfhnNWxbWmljkTbDNYVIzcv%2FBrLKPulp7sM5wXJRT%2BkHahuHfWsVg82yZEcdccCutgjY9NkTfTzURaZhN%2Bm4jVtV%2BtyPFt4dh7mbt9ZntN58NW0K7%2FURQe7CojiOZ2jF47LSPZnJG9QbCQtHBWL2cG7pi8R9G6uyr%2BPR68OImw10wWReYCZpDDIdG5g0eBA8bUwaN2mttEV0Jc0zeQ4JssYaM65&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20260113T121009Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYVFUMZLHG%2F20260113%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=df8a33222488658d581e5e8c22b57c9b623d3d20a45a212b4cdfc165e4d83137&amp;hash=3658b1bb5f4623716bc00caaf2e8bc5b4ec3f5ae7008567fce026a53efe39960&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0969698913000040&amp;tid=spdf-3fdd2c5a-4f4e-43dc-804f-8a31d42ece89&amp;sid=b5d44dae5b5dd042f699adc1f19f6580681bgxrqb&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=0a0b560500540c5f&amp;rr=9bd4c9ed9bb50db5&amp;cc=dk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:10:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1087">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1087/S0969698913000040.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0969698913000040</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:10:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0167811698000226">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:01678116"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pieters</foaf:surname>
+                        <foaf:givenName>Rik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Warlop</foaf:surname>
+                        <foaf:givenName>Luk</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1085"/>
+        <dc:title>Visual attention during brand choice: The impact of time pressure and task motivation</dc:title>
+        <dcterms:abstract>Measures derived from eye-movement data reveal that during brand choice consumers adapt to time pressure by accelerating the visual scanning sequence, by filtering information and by changing their scanning strategy. In addition, consumers with high task motivation filter brand information less and pictorial information more. Consumers under time pressure filter textual ingredient information more, and pictorial information less. The results of a conditional logit analysis reveal that the chosen brand receives significantly more intra-brand and inter-brand saccades and longer fixation durations than non-chosen brands, independent of time pressure and task motivation conditions. Implications for the theory of consumer attention and for pretesting of packaging and shelf lay-outs are discussed. q 1999 Elsevier Science B.V. All rights reserved.</dcterms:abstract>
+        <dc:date>2/1999</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Visual attention during brand choice</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0167811698000226</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:10:06</dcterms:dateSubmitted>
+        <dc:rights>https://www.elsevier.com/tdm/userlicense/1.0/</dc:rights>
+        <bib:pages>1-16</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:01678116">
+        <prism:volume>16</prism:volume>
+        <dc:title>International Journal of Research in Marketing</dc:title>
+        <dc:identifier>DOI 10.1016/S0167-8116(98)00022-6</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>International Journal of Research in Marketing</dcterms:alternative>
+        <dc:identifier>ISSN 01678116</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1085">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1085/Pieters and Warlop - 1999 - Visual attention during brand choice The impact of time pressure and task motivation.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://feb.kuleuven.be/public/u0007696/pieters-warlop-ijrm-1999.pdf?utm_source=chatgpt.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:10:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0272494424000549">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0272-4944"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fella</foaf:surname>
+                        <foaf:givenName>Stefanie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bausa</foaf:surname>
+                        <foaf:givenName>Elena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1091"/>
+        <link:link rdf:resource="#item_1090"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Categorization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Consumer perception</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Green advertising</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Green product cue</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Greenwashing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sustainability communication</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Green or greenwashed? Examining consumers' ability to identify greenwashing</dc:title>
+        <dcterms:abstract>Nowadays, companies and consumers face the challenge of navigating around the pitfalls of greenwashing in markets presenting uncountable new and existing green products. This research examines consumer perceptions of such products and the extent to which consumers are able to identify greenwashing. Drawing on categorization theory, consumers may classify a new product based on different green cues as honest green, greenwashed, or non-green. We test this ability across three different products in two experimental studies (N = 700) conducted in Germany and find that consumers fall for greenwashing when they are asked solely for their purchase intentions. Activating a greenwashed product category by asking participants for their perceived greenwashing helped them to spot the differences between the green products. This research contributes to the literature by directly examining consumers' ability to distinguish between greenwashed and honest green products and by providing empirical evidence that consumers can do so when they are primed. That is, the activation of a greenwashed product category can support consumers in identifying greenwashing. Practically speaking, this research may point public policy toward category activation as a simple measure to help consumers unmask greenwashing in purchase contexts.</dcterms:abstract>
+        <dc:date>2024-05-01</dc:date>
+        <z:shortTitle>Green or greenwashed?</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0272494424000549</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:12:34</dcterms:dateSubmitted>
+        <bib:pages>102281</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0272-4944">
+        <prism:volume>95</prism:volume>
+        <dc:title>Journal of Environmental Psychology</dc:title>
+        <dc:identifier>DOI 10.1016/j.jenvp.2024.102281</dc:identifier>
+        <dcterms:alternative>Journal of Environmental Psychology</dcterms:alternative>
+        <dc:identifier>ISSN 0272-4944</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1091">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1091/Fella and Bausa - 2024 - Green or greenwashed Examining consumers' ability to identify greenwashing.pdf"/>
+        <dc:title>ScienceDirect Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/272402/1-s2.0-S0272494424X00031/1-s2.0-S0272494424000549/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDsaCXVzLWVhc3QtMSJHMEUCIE5q8gct5fUWzQYUn%2FvrHx7HJ8CBBLrH2%2FagQV44BETxAiEA9GQGrZ3KRojsfyn7l2jkMpWp5BZPi8rnEUqGJL9H6fQqswUIBBAFGgwwNTkwMDM1NDY4NjUiDECyILTGgbKGGl1N4CqQBdno7GUCqUIYvfdZUiMysvwisunW%2BbbxCokrX26ha1G8pwY7mjpKuj8W3ni8RpG92dzavv7QA9aQ8Qu8XZBC2dw9Je1%2Br9oryonyHi5lpbHjLGM66Ym4qmUQSKTZSnj9sqP%2FLZYmEZNhQpNuzAVxHRjd7faItbgpY0OMu9rGoDNTZ%2B2hCa9FkzAgxmMDZtX%2BENPjE%2BJxWpe0bgaEkNFeS0ex%2BYsFZ3%2F1tI9D7PJIKk1igVzLyRyiN%2FuuNeSymbYYrGvef263dceV3fOP4Pi0xFRctSfDZK6NJfEBsGv9AMwq9VGC5TKXy7o6FpI8Ja73WxtnAY0r6qQDScoYXC33qfvda5jHijfPNnyyhFLK%2BdcAIFnEB3oX7egndtVokX3Gd37fVxty%2BGAO%2FjR8u%2B72ytNVgEFcpb9Kp4yFvGBPYluDa0Iqu4ZAVJq%2Fq5zrxsWI6UxQBS4xYfmUXf4daWhH9UmTkQvBXMHxXriY%2B48sJhnQ%2Bh3Mthk3v7Umm2jpJE%2FC7sscX1ko1Vu%2Fjc0qXgEuIarPOjBg4fXBM5Tt04AuHE5kdu46z5VPzQIeNfcwFtLg4oU9tFz5zmSbWhegSw5YaRLTcH0w%2BIZh6Ac2OZwdcoLeLI8LRDiIwzm%2Fi18Hbw03e1DiT5XVZ0%2F7Y%2FiskPRJWoMOWFX2OByKoxchhlq0t0WzfFccToei0OkKUigNRPhzXxpmwxETqAldi0HVP8mzOacSlMx7zM%2F%2FUYd84tPEuZ5rEJNJbe2XbyNNO%2BJcW3KB%2B6ltpDgHH1EfUgmLx5E6CKxx7tGJ03n8VBOkAPvrP75fh7sAO6lU5xiwvyLFsrvDUyWiv%2BHxO9loAcJRsChSpv2UzIFYzkMxFGkuvEtzZqgKMI7LmMsGOrEBomyJWMia4J%2FPYSuK6M9TysWP0xf43P9zZOpKzirixHpFan5WOBd2TsJgzIUBasskArA8V1fYVNcA%2BYodUMWfdaIAFlf%2B01Oc1LFDlqu9BVtMXpBaCFgt6rFhoRY9%2FMY6R9jLRtq%2BNgVT7wy8Odj94E0ty7dfs6wTwAkA2PwkQYt5ZbPlH7%2BeF3eEaO%2BLmM2w1TaJKgaVlxP6F9yCvD77W946yO%2BjwUbWo9YRggZLnJm1&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20260113T121240Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYTSBHKLLA%2F20260113%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=5e3b87d2caa8d7982d3e229da0086ccff179359dbf35fa1655cb58902782b8e8&amp;hash=1e0886f8b85a719b03052459fbec808ba3aeb825d723d43f78f6131368a8598f&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0272494424000549&amp;tid=spdf-3a66ce17-291a-4062-9655-6cc1d92d73bb&amp;sid=b5d44dae5b5dd042f699adc1f19f6580681bgxrqb&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=0a0b560500540c02&amp;rr=9bd4cd9f78000db5&amp;cc=dk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:12:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1090">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1090/S0272494424000549.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0272494424000549</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:12:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S2666789425000807">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2666-7894"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>García Herrero</foaf:surname>
+                        <foaf:givenName>Laura</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sanyé Mengual</foaf:surname>
+                        <foaf:givenName>Esther</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Casonato</foaf:surname>
+                        <foaf:givenName>Cecilia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Listorti</foaf:surname>
+                        <foaf:givenName>Giulia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1094"/>
+        <link:link rdf:resource="#item_1093"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Environmental footprint</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Food labelling</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Food policy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Green claims</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Life cycle assessment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sustainability label</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Life cycle assessment (and environmental footprint) to support food labelling schemes: an overview of current proposals and future directions</dc:title>
+        <dcterms:abstract>Sustainability labelling gained prominence in food policy discourse in recent years, particularly in Europe, although its effectiveness in influencing consumer behaviour remains uncertain. This work explores selected sustainability food labels in the EU, reviewing sustainability indicators and the underlying life cycle assessment (LCA) methodologies. It addresses methodological approaches, and how they apply LCA with reference to the Product Environmental Footprint (PEF) method recommended by the European Commission. Four labels were identified from a comprehensive product database, focusing on labels applying LCA and quantifying multiple impacts, while an additional one was identified from the current EU panorama. An evaluation framework was developed on the relevant methodological aspects, encompassing governance, transparency, and clarity. Interviews with label developers complemented the analysis, along with a review of criticisms of LCA and PEF for labelling purposes. Four are scoring labels providing graded and colour-coded visuals, while one is still under development. Methodological adaptations to the PEF were common, and non-LCA sustainability assessments accounted for aspects such as farming management, social issues, and biodiversity. Labels varied in transparency, stakeholder involvement, and clarity. Criticisms of LCA include its reductionist approach, data gaps, and lack of robust methodologies for assessing biodiversity. While sustainability labelling is important to guide sustainable choices, labels need to be part of a broader policy mix and should be underpinned by clear goals and robust methodologies. This analysis will help to develop evidence-based policy instruments for sustainable consumption and set the basis for a harmonized labelling system.</dcterms:abstract>
+        <dc:date>2025-12-01</dc:date>
+        <z:shortTitle>Life cycle assessment (and environmental footprint) to support food labelling schemes</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S2666789425000807</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:17:32</dcterms:dateSubmitted>
+        <bib:pages>100334</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2666-7894">
+        <prism:volume>19</prism:volume>
+        <dc:title>Cleaner Environmental Systems</dc:title>
+        <dc:identifier>DOI 10.1016/j.cesys.2025.100334</dc:identifier>
+        <dcterms:alternative>Cleaner Environmental Systems</dcterms:alternative>
+        <dc:identifier>ISSN 2666-7894</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1094">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1094/García Herrero et al. - 2025 - Life cycle assessment (and environmental footprint) to support food labelling schemes an overview o.pdf"/>
+        <dc:title>ScienceDirect Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/777791/1-s2.0-S2666789425X00040/1-s2.0-S2666789425000807/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLWVhc3QtMSJGMEQCIAoSaqc1C00zmbbCj5DLB91Q2se%2BGJXUZFYfJ9ua%2FWcHAiBkzMGJ%2BYTv07mCTzEuts38tjogfgrNDjf5ErFNZC7U3SqyBQgFEAUaDDA1OTAwMzU0Njg2NSIM6uyP7PsMSfrakY5RKo8Fwq%2FDp3BMpDPvsGyQmAths1Dpj%2Fpc1tJdY0BHV1hxcP8xycmNbGQ8p8kwbuQP%2FKE1jRBLeU2kvTac2rJVDcy2QQXM1eUiUqZGTGnN940qeUmb4QihlHGkSG2l1Z54cZy7marfvpT9R8uDLZPN4O%2BQ4AxXMz26HD2g5nhGR9KI8rKjHs%2Fmk%2Fn%2FYe7rWh8kSn5ALB%2BmKKwzhg4HLElTucwA0Ic9rUSoGub%2Fh3TWkLGLm4hjoibOfuYS7XXf0EwMzTmwzwq4WkGRTd6OgyI2QPCT83R6iGFp8P6etm9NTcd8SsJW72SgQ1baDAdfjyNJJkRQAq8MJNv3TlWpP%2BEFMvrcfajn040G4l4dzjGrMm0r00yV6%2FDgi%2BFbt2Lvy9CuMVvBGLK%2FFQUq4I3G9rbU%2BQpFTD8vUBCZdi2h9Hvl%2FpOAmBqOaojCUinEPdxteIEWXmedZKXvFV7Vae7Wgf%2Bg9aA30nZLl3SSNfMXsCkUsk0Fo7UGqDSPX%2BA1Kmj5U1dtlnCwpQSp%2B1lYtaZJuYQ7MnYGZYqgElbBG1A0kuO%2FLIHLKUB8xErPc3XXwFJalogvkBeg6wPikVKRpL6OiSArVroksw0315PdA729TWR8nQLNIomHRlWcy%2F%2Fz8pvbBE%2F3%2BCCDQxPYGPpEWb9Nu3jv6HQUDVym1uhpDLrAJaAIvF84YcNY5WARpoc2E3cZM7V0s15J%2FJS6YcZNnaA21NALbeJXndXVdGQPLoiRmObdXFQxss5vrx0St1pMO%2BA8Tvq9JY5UmPrjN%2BOIjo9TPZ0Mw3khCwFFNoY131nokoyPYk%2BPl%2FtAb8Eiwv%2Bn2jv5JgDcswEA8Dt%2Bx7cMesW7%2F47l%2BrlgfVGKmLzLm2%2BQyan40S7EBzDv2pjLBjqyAXyIb6Ov2KadSuslyls2ncG%2B66d2d8VcKpb8jOI8DJrtvjl0%2FBM2dEu9JAkRg%2FS1IzgSygUhmQwKgsP4Mh86ExivyPzo58RaIfAXwzxba7JOacAhO0Xc1vl6DjWgZ%2BRLogao9K2KhHfVFN3e5OBKBYK%2F1KcvYL8dqcKhk6viBKAVVELQJ6dh4rgyH%2BysG0%2Ba%2F%2FulFXr3KiF6YZI%2Faaqkxtg%2BCgzFEtkUG%2BZxCgubsTU8X2o%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20260113T121738Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYVPGDWWWI%2F20260113%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=9dafcfbf9cbc1e6a400dd6b04a53a83f4c444b378b1922499d21082f7c64c32b&amp;hash=5b9a21116e06492b587754fd0c4325f1b1aaf93343f820c1c05e93832f51cb52&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S2666789425000807&amp;tid=spdf-d593e899-60a0-4470-8aae-ce8c56297681&amp;sid=b5d44dae5b5dd042f699adc1f19f6580681bgxrqb&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=0a0b560500540b52&amp;rr=9bd4d4e44d650db5&amp;cc=dk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:17:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1093">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1093/S2666789425000807.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S2666789425000807</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:17:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://foedevarestyrelsen.dk/Media/638791172253470708/Vejledning%20om%20%C3%B8kologiske%20f%C3%B8devarer%20april%202025.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Fødevarestyrelsen</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1097"/>
+        <dc:title>Vejledning om økologiske fødevarer</dc:title>
+        <dc:date>2025</dc:date>
+        <z:language>da</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://foedevarestyrelsen.dk/Media/638791172253470708/Vejledning%20om%20%C3%B8kologiske%20f%C3%B8devarer%20april%202025.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1097">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1097/2025 - Vejledning om økologiske fødevarer.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://foedevarestyrelsen.dk/Media/638791172253470708/Vejledning%20om%20%C3%B8kologiske%20f%C3%B8devarer%20april%202025.pdf?utm_source=chatgpt.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-13 12:24:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
